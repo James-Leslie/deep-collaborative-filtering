@@ -39,6 +39,20 @@ def create_index(data, start=0):
     return encoder, decoder
 
 
+def reset_ids(df, column, start=0):
+
+    """
+    Returns dataframe with column IDs reset sequetially between 0-n
+    """
+
+    ids = np.sort(df.column.unique())
+    encoder, _ = create_index(ids)
+
+    df.column = df.column.replace(encoder)
+
+    return df
+
+
 def load_wide(path, user_thresh=4, item_thresh=4, reindex=True):
 
     """
@@ -200,12 +214,21 @@ class ExplicitDataset(Dataset):
 
         self.df = pd.read_csv(csv_file)
 
+        # get column numbers
+        self.user_loc = self.df.columns.get_loc(users)
+        self.item_loc = self.df.columns.get_loc(items)
+        self.rating_loc = self.df.columns.get_loc(ratings)
+
     def __len__(self):
         return len(self.df)
 
     def __getitem__(self, idx):
-        user = torch.tensor(int(self.df.iloc[idx, 0])).cuda()
-        item = torch.tensor(int(self.df.iloc[idx, 1])).cuda()
-        rating = torch.tensor(self.df.iloc[idx, -1]).cuda()
+        user = torch.tensor(int(self.df.iloc[idx, self.user_loc])).cuda()
+        item = torch.tensor(int(self.df.iloc[idx, self.item_loc])).cuda()
+        rating = torch.tensor(self.df.iloc[idx, self.rating_loc]).cuda()
 
         return (user, item, rating)
+
+        # inputs = torch.tensor(self.df.iloc[idx, :self.item_loc+1].values.astype('int64')).cuda()
+        #
+        # return (inputs, rating)

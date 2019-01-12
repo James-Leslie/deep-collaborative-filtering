@@ -30,6 +30,9 @@ class EmbeddingNet(nn.Module):
         self.drop2 = nn.Dropout(0.15)  # dropout rate of 15%
 
     def forward(self, users, items):
+    # def forward(self, inputs):
+        # users, items = inputs[:,0], inputs[:,1]
+
         # concatenate embeddings to form first layer, add dropout
         x = self.drop1(torch.cat([self.u(users),self.i(items)], dim=1))
         # second layer with 10 hidden neurons and dropout
@@ -66,8 +69,10 @@ def find_lr(model, data_loader, optimizer, criterion):
 
     # loop through data until gradient starts to explode
     for user, item, rating in tqdm(data_loader):
+    # for inputs, rating in tqdm(data_loader):
 
         output = model(user, item)
+        # output = model(inputs)
         loss = criterion(output, rating)
 
         running_loss = avg_beta * running_loss + (1-avg_beta) * loss.item()
@@ -100,6 +105,7 @@ def fit_model(epochs, model, optimizer, criterion, train, test, one_cycle=None):
         running_loss = 0.0
 
         for user, item, rating in tqdm(train):
+        # for inputs, rating in tqdm(train):
 
             optimizer.zero_grad()
 
@@ -113,6 +119,7 @@ def fit_model(epochs, model, optimizer, criterion, train, test, one_cycle=None):
                 update_mom(optimizer, mom)
 
             output = model(user, item)
+            # output = model(inputs)
             loss = criterion(output, rating)
 
             # update weights
@@ -135,7 +142,9 @@ def fit_model(epochs, model, optimizer, criterion, train, test, one_cycle=None):
                 # turn off dropout
                 model.eval()
                 for user, item, rating in test:
+                # for inputs, rating in test:
                     output = model(user, item)
+                    # output = model(inputs)
                     test_loss += criterion(output, rating)
 
             # print test loss
