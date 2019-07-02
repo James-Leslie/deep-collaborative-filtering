@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import torch
-from torch.utils.data import Dataset
 
 
 def create_index(data, start=0):
@@ -42,13 +40,13 @@ def create_index(data, start=0):
 def reset_ids(df, column, start=0):
 
     """
-    Returns dataframe with column IDs reset sequetially between 0-n
+    Returns dataframe with column IDs reset sequentially between 0-n
     """
 
-    ids = np.sort(df.column.unique())
+    ids = np.sort(df[column].unique())
     encoder, _ = create_index(ids)
 
-    df.column = df.column.replace(encoder)
+    df[column] = df[column].apply(lambda x: encoder[x])
 
     return df
 
@@ -142,7 +140,7 @@ def make_long(wide_df, users, items, ratings, explicit=True):
 
     # for implicit data
     if not explicit:
-        long_df.drop(val, axis=1, inplace=True)
+        long_df.drop(ratings, axis=1, inplace=True)
 
     return long_df
 
@@ -191,44 +189,3 @@ def make_wide(long_df, vals, idx, cols):
     del wide_df.columns.name
 
     return wide_df
-
-
-class ExplicitDataset(Dataset):
-    """Recommender dataset with explicit ratings"""
-
-    def __init__(self, csv_file, users='user_id', items='item_id', ratings='rating'):
-        """
-        Args:
-        csv_file (string):
-            Path to the csv file with user-item interactions
-
-        users (string):
-            column name from long_df for user IDs
-
-        items (string):
-            column name from long_df for item IDs
-
-        ratings (string):
-            column name from long_df for ratings
-        """
-
-        self.df = pd.read_csv(csv_file)
-
-        # get column numbers
-        self.user_loc = self.df.columns.get_loc(users)
-        self.item_loc = self.df.columns.get_loc(items)
-        self.rating_loc = self.df.columns.get_loc(ratings)
-
-    def __len__(self):
-        return len(self.df)
-
-    def __getitem__(self, idx):
-        user = torch.tensor(int(self.df.iloc[idx, self.user_loc])).cuda()
-        item = torch.tensor(int(self.df.iloc[idx, self.item_loc])).cuda()
-        rating = torch.tensor(self.df.iloc[idx, self.rating_loc]).cuda()
-
-        return (user, item, rating)
-
-        # inputs = torch.tensor(self.df.iloc[idx, :self.item_loc+1].values.astype('int64')).cuda()
-        #
-        # return (inputs, rating)
