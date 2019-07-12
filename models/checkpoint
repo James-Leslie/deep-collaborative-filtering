@@ -1,2 +1,2 @@
-model_checkpoint_path: "goodbooks.ckpt"
-all_model_checkpoint_paths: "goodbooks.ckpt"
+model_checkpoint_path: "goodbooks_genres.ckpt"
+all_model_checkpoint_paths: "goodbooks_genres.ckpt"
