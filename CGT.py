@@ -65,8 +65,8 @@ def get_baseline(df, train_index, test_index):
     return train, test, global_mean
 
 
-def compile_genre_model(n_items, n_users, mean_rating, n_latent, n_hidden_1, n_hidden_2, 
-                        leaky_alpha=.1, dropout_1=.25, dropout_2=.25):
+def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating, 
+                        n_latent, n_hidden_1, n_hidden_2, leaky_alpha=.1, dropout_1=.2, dropout_2=.2):
     
     # item latent factors
     item_in = Input(shape=[1])  # name='item'
@@ -80,29 +80,23 @@ def compile_genre_model(n_items, n_users, mean_rating, n_latent, n_hidden_1, n_h
     bias = Input(shape=[1])
     # concatenate user and item vectors
     conc = Concatenate()([item_vec, user_vec])
-    # first hidden layer with leaky ReLU and dropout
-    x1 = Dense(n_hidden_1[0])(conc)
-    x1 = LeakyReLU(alpha=leaky_alpha)(x1)
-    x1 = Dropout(dropout_1)(x1)
-    # second hidden layer with leaky ReLU and dropout
-    x1 = Dense(n_hidden_1[1])(x1)
+    # hidden layer with leaky ReLU and dropout
+    x1 = Dense(n_hidden_1)(conc)
     x1 = LeakyReLU(alpha=leaky_alpha)(x1)
     x1 = Dropout(dropout_1)(x1)
     # raw output
     x1 = Dense(1)(x1)
     # add interaction bias to get adjusted rating
-    rating = tf.math.add(Add()([x1, bias]), mean_rating)
+    x1 = tf.math.add(Add()([x1, bias]), mean_rating)
+    # clip rating to be between min and max
+    rating = tf.clip_by_value(x1, min_rating, max_rating)
     # create model and compile it
     model = Model([user_in, item_in, bias], rating)
     model.compile(optimizer='adam', loss='mean_squared_error')
     
     # model 2
-    # first hidden layer with leaky ReLU and dropout
-    x2 = Dense(n_hidden_2[0], activation='relu')(item_vec)
-    x2 = LeakyReLU(alpha=leaky_alpha)(x2)
-    x2 = Dropout(dropout_2)(x2)
-    # second hidden layer with leaky ReLU and dropout
-    x2 = Dense(n_hidden_2[1], activation='relu')(x2)
+    # hidden layer with leaky ReLU and dropout
+    x2 = Dense(n_hidden_2, activation='relu')(item_vec)
     x2 = LeakyReLU(alpha=leaky_alpha)(x2)
     x2 = Dropout(dropout_2)(x2)
     # add sigmoid activation function
