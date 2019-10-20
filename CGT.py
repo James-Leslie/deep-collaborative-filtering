@@ -66,7 +66,11 @@ def get_baseline(df, train_index, test_index):
 
 
 def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating, 
-                        n_latent, n_hidden_1, n_hidden_2, leaky_alpha=.1, dropout_1=.2, dropout_2=.2):
+                        n_latent, n_hidden_1, n_hidden_2, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
+    
+    # for reproducibility
+    np.random.seed(random_seed)
+    tf.random.set_seed(random_seed)
     
     # item latent factors
     item_in = Input(shape=[1])  # name='item'
@@ -81,8 +85,7 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
     # concatenate user and item vectors
     conc = Concatenate()([item_vec, user_vec])
     # hidden layer with leaky ReLU and dropout
-    x1 = Dense(n_hidden_1)(conc)
-    x1 = LeakyReLU(alpha=leaky_alpha)(x1)
+    x1 = Dense(n_hidden_1, activation=activation)(conc)
     x1 = Dropout(dropout_1)(x1)
     # raw output
     x1 = Dense(1)(x1)
@@ -96,8 +99,7 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
     
     # model 2
     # hidden layer with leaky ReLU and dropout
-    x2 = Dense(n_hidden_2, activation='relu')(item_vec)
-    x2 = LeakyReLU(alpha=leaky_alpha)(x2)
+    x2 = Dense(n_hidden_2, activation=activation)(item_vec)
     x2 = Dropout(dropout_2)(x2)
     # add sigmoid activation function
     genre = Dense(1, activation='sigmoid')(x2)
