@@ -110,3 +110,50 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
     model2.compile(optimizer='adam', loss='binary_crossentropy' , metrics=['accuracy', 'AUC'])
     
     return model, model2
+
+
+def compile_multigenre_model(n_items, n_users, min_rating, max_rating, mean_rating, n_genres,
+                        n_latent, n_hidden_1, n_hidden_2, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
+    
+    # for reproducibility
+    np.random.seed(random_seed)
+    tf.random.set_seed(random_seed)
+    
+    # item latent factors
+    item_in = Input(shape=[1])  # name='item'
+    item_em = Embedding(n_items, n_latent)(item_in)
+    item_vec = Flatten()(item_em)
+    # user latent factors
+    user_in = Input(shape=[1])
+    user_em = Embedding(n_users, n_latent)(user_in)
+    user_vec = Flatten()(user_em)
+    # user x item bias
+    bias = Input(shape=[1])
+    # concatenate user and item vectors
+    conc = Concatenate()([item_vec, user_vec])
+    # hidden layer with leaky ReLU and dropout
+    x1 = Dense(n_hidden_1, activation=activation)(conc)
+    x1 = Dropout(dropout_1)(x1)
+    # raw output
+    x1 = Dense(1)(x1)
+    # add interaction bias to get adjusted rating
+    x1 = tf.math.add(Add()([x1, bias]), mean_rating)
+    # clip rating to be between min and max
+    rating = tf.clip_by_value(x1, min_rating, max_rating)
+    # create model and compile it
+    model = Model([user_in, item_in, bias], rating)
+    model.compile(optimizer='adam', loss='mean_squared_error')
+    
+    # model 2
+    # hidden layer with leaky ReLU and dropout
+    x2 = Dense(n_hidden_2, activation=activation)(item_vec)
+    x2 = Dropout(dropout_2)(x2)
+    # add sigmoid activation function
+    genre = Dense(n_genres, activation='sigmoid')(x2)
+    # create model and compile it
+    model2 = Model(item_in, genre)
+    # freeze the embedding layer
+    model2.layers[1].trainable = False
+    model2.compile(optimizer='adam', loss='binary_crossentropy' , metrics=['accuracy', 'AUC'])
+    
+    return model, model2
