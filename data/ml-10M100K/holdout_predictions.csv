@@ -1,7 +1,7 @@
 movieId,title,Drama,prediction
 5515,Two Much (1995),0,0
 1208,Treasure Planet (2002),0,0
-10194,Pure (2002),1,0
+10194,Pure (2002),1,1
 2085,Dolls (2002),1,1
 2458,Fort Apache (1948),0,0
 958,Shrek 2 (2004),0,0
@@ -13,7 +13,7 @@ movieId,title,Drama,prediction
 10049,Spinning Boris (2003),1,1
 8051,"Rose Tattoo, The (1955)",1,1
 7207,"Return of a Man Called Horse, The (1976)",0,0
-4823,28 Weeks Later (2007),1,0
+4823,28 Weeks Later (2007),1,1
 10389,Tokyo-Ga (1985),0,1
 7433,"Raven, The (Le Corbeau) (1943)",1,1
 5632,Shoah (1985),0,1
@@ -31,58 +31,58 @@ movieId,title,Drama,prediction
 4608,Man Bites Dog (C'est arrivÃ© prÃ¨s de chez vous) (1992),1,1
 2238,Gosford Park (2001),1,1
 2423,"Strada, La (1954)",1,1
-4326,"Big Sleep, The (1978)",0,1
+4326,"Big Sleep, The (1978)",0,0
 8153,Tuesdays with Morrie (1999),1,1
-8469,"Girl Who Leapt Through Time, The (Toki o kakeru shÃ´jo) (2006)",1,0
+8469,"Girl Who Leapt Through Time, The (Toki o kakeru shÃ´jo) (2006)",1,1
 4693,"Fountain, The (2006)",1,1
 33,Phenomenon (1996),1,1
 4999,Raise the Titanic (1980),1,0
-3229,Betrayed (1988),1,1
+3229,Betrayed (1988),1,0
 1408,Circle of Friends (1995),1,1
-2465,"Cocoanuts, The (1929)",0,0
+2465,"Cocoanuts, The (1929)",0,1
 8198,Flicka (2006),1,0
-5545,Something for Everyone (1970),0,1
+5545,Something for Everyone (1970),0,0
 9319,PTU (2003),1,1
 5623,Basic (2003),1,0
 1691,Limbo (1999),1,1
-8579,"Heaven Knows, Mr. Allison (1957)",1,1
+8579,"Heaven Knows, Mr. Allison (1957)",1,0
 694,What About Bob? (1991),0,0
 4960,Poolhall Junkies (2002),1,0
 9307,Across 110th Street (1972),0,1
 8618,"Forbidden Christ, The (Il Cristo proibito) (1950)",1,1
 1056,How Stella Got Her Groove Back (1998),1,1
 4900,Day Watch (Dnevnoy dozor) (2006),0,1
-2930,"Whole Wide World, The (1996)",1,1
+2930,"Whole Wide World, The (1996)",1,0
 5484,"Godzilla, King of the Monsters! (1956)",0,0
 8158,"Ugly, The (1997)",0,0
 4950,Club Dread (2004),0,0
 8999,F for Fake (VÃ©ritÃ©s et mensonges) (1974),0,1
 932,Starsky & Hutch (2004),0,0
 2039,Beloved (1998),1,1
-6933,New York Doll (2005),0,1
+6933,New York Doll (2005),0,0
 10155,Waterloo (1970),1,0
 1921,"Family Man, The (2000)",1,1
 9174,Blackboards (TakhtÃ© Siah) (2000),1,1
-10387,"Friend Is a Treasure, A (a.k.a. Who Finds a Friend Finds a Treasure) (Chi Trova Un Amico, Trova un Tesoro) (1981)",0,1
+10387,"Friend Is a Treasure, A (a.k.a. Who Finds a Friend Finds a Treasure) (Chi Trova Un Amico, Trova un Tesoro) (1981)",0,0
 6394,Alone in the Dark (1982),0,0
 9755,"Five, The (Gonin) (1995)",1,0
 8376,Happy Weekend (1996),0,1
 5270,My Favorite Wife (1940),0,1
 1350,Big Daddy (1999),0,0
-9161,Minnie and Moskowitz (1971),0,1
+9161,Minnie and Moskowitz (1971),0,0
 9449,"Goodbye, Dragon Inn (Bu san) (2003)",1,1
 4377,"Sea Is Watching, The (Umi wa miteita) (2002)",0,0
 1965,"Exorcism of Emily Rose, The (2005)",1,1
 9010,Skins (2002),1,1
 2948,Mannequin (1987),0,0
 9205,Criminal Lovers (Les Amants Criminels) (1999),1,1
-608,Plunkett & MaCleane (1999),1,0
+608,Plunkett & MaCleane (1999),1,1
 795,"Royal Tenenbaums, The (2001)",1,1
 2802,Catch-22 (1970),0,1
 2036,Midnight in the Garden of Good and Evil (1997),1,1
 2227,"Wicker Man, The (1973)",0,1
 3418,Sunset Park (1996),1,0
-7662,Breakin' All the Rules (2004),0,1
+7662,Breakin' All the Rules (2004),0,0
 8672,"Atlantis, the Lost Continent (1961)",0,0
 10378,"Iron Horse, The (1924)",0,1
 10276,Going the Distance (2004),0,0
@@ -91,7 +91,7 @@ movieId,title,Drama,prediction
 2067,Beneath the Planet of the Apes (1970),0,0
 5916,Yankee Doodle Dandy (1942),1,0
 3069,Hero (1992),1,1
-3060,Normal Life (1996),1,0
+3060,Normal Life (1996),1,1
 6992,Julius Caesar (1953),1,1
 7770,Dark Days (2000),0,1
 9491,Wife vs. Secretary (1936),1,1
@@ -102,13 +102,13 @@ movieId,title,Drama,prediction
 4250,"Institute Benjamenta, or This Dream People Call Human Life (1995)",1,1
 10586,Ordinary Sinner (2001),1,1
 6216,Surviving Picasso (1996),1,1
-8822,In the Soup (1992),1,0
+8822,In the Soup (1992),1,1
 107,Taxi Driver (1976),1,1
-6982,Bolt (2008),0,0
+6982,Bolt (2008),0,1
 5821,"Libertine, The (2004)",1,0
 2154,"Trip to Bountiful, The (1985)",1,1
 9115,San Antonio (1945),0,1
-7210,Blood For Dracula (Andy Warhol's Dracula) (1974),0,1
+7210,Blood For Dracula (Andy Warhol's Dracula) (1974),0,0
 8011,"Year of the Yao, The (2004)",0,0
 4700,Black Book (Zwartboek) (2006),1,1
 10217,For the Bible Tells Me So (2007),0,1
@@ -124,11 +124,11 @@ movieId,title,Drama,prediction
 5308,Who'll Stop the Rain (1978),1,1
 1118,Little Big League (1994),1,0
 3325,Enigma (2001),0,1
-3132,In the Bleak Midwinter (1995),1,0
+3132,In the Bleak Midwinter (1995),1,1
 6523,"Tale of Two Sisters, A (Janghwa, Hongryeon) (2003)",1,1
 7095,"Little World of Don Camillo, The (Le Petit monde de Don Camillo) (1953)",0,1
 7538,Monument Ave. (1998),1,1
-7048,Shutter (2008),0,0
+7048,Shutter (2008),0,1
 304,Ace Ventura: When Nature Calls (1995),0,0
 2009,Popeye (1980),0,0
 4772,Faces of Death: Fact or Fiction? (1999),0,0
@@ -137,14 +137,14 @@ movieId,title,Drama,prediction
 8482,Ringu 0: BÃ¢sudei (2000),1,0
 2317,Hamlet (1948),1,1
 3166,Anna Karenina (1997),1,1
-5635,To Live and Die in L.A. (1985),1,1
+5635,To Live and Die in L.A. (1985),1,0
 6824,Stick It (2006),0,0
 3118,Earth vs. the Flying Saucers (1956),0,0
 2613,"King and I, The (1999)",0,0
 6148,"Oh, Heavenly Dog! (1980)",0,0
 399,Monty Python and the Holy Grail (1975),0,0
 960,Saved! (2004),1,1
-5326,"Hitch-Hiker, The (1953)",0,0
+5326,"Hitch-Hiker, The (1953)",0,1
 3369,When a Stranger Calls (2006),0,0
 5805,Ned Kelly (2003),1,0
 7135,Elite Squad (Tropa de Elite) (2007),1,1
@@ -154,13 +154,13 @@ movieId,title,Drama,prediction
 5403,"Life and Death of Peter Sellers, The (2004)",1,1
 9683,Fathom (1967),0,0
 9970,"Rachel Papers, The (1989)",1,0
-5012,Cimarron (1931),1,0
+5012,Cimarron (1931),1,1
 10358,Stoned (2005),1,1
 360,Heavy Metal (1981),0,0
 5551,All Things Fair (Lust och fÃ¤gring stor) (1995),1,1
 2492,"Manchurian Candidate, The (1962)",0,0
 518,Halloween H20: 20 Years Later (1998),0,0
-1703,"Astronaut's Wife, The (1999)",0,0
+1703,"Astronaut's Wife, The (1999)",0,1
 6367,For Your Consideration (2006),0,0
 8390,Gabriela (2001),1,1
 2955,Beethoven (1992),0,0
@@ -170,15 +170,15 @@ movieId,title,Drama,prediction
 8825,"Million to Juan, A (1994)",0,0
 10595,When Willie Comes Marching Home (1950),0,1
 2791,Mystery Train (1989),1,1
-9626,Fox and His Friends (Faustrecht der Freiheit) (1975),1,0
+9626,Fox and His Friends (Faustrecht der Freiheit) (1975),1,1
 7260,"Revenge of Frankenstein, The (1958)",1,0
 2769,"Thin Blue Line, The (1988)",0,1
 9992,Jesus (1979),1,0
 3274,My Neighbor Totoro (Tonari no Totoro) (1988),0,0
 9787,God of Cookery (Sik san) (1996),0,1
 6061,Meet Bill (2007),1,0
-9290,Silent Light (Stellet licht) (2007),1,1
-3011,Wild Bill (1995),0,1
+9290,Silent Light (Stellet licht) (2007),1,0
+3011,Wild Bill (1995),0,0
 5649,"Silence, The (Tystnaden) (1963)",1,1
 1022,"Big Blue, The (Grand bleu, Le) (1988)",1,1
 4262,King of New York (1990),1,0
@@ -190,7 +190,7 @@ movieId,title,Drama,prediction
 9668,Greaser's Palace (1972),1,1
 7778,Lovers and Other Strangers (1970),0,1
 424,Star Trek V: The Final Frontier (1989),0,0
-7475,Planet of the Vampires (Terrore nello spazio) (1965),0,0
+7475,Planet of the Vampires (Terrore nello spazio) (1965),0,1
 1369,Hook (1991),0,0
 4453,"Time of the Wolf, The (Le Temps du Loup) (2003)",1,1
 1984,"Bourne Ultimatum, The (2007)",0,1
@@ -233,7 +233,7 @@ movieId,title,Drama,prediction
 265,"Talented Mr. Ripley, The (1999)",1,1
 1087,Children of the Damned (1963),0,0
 7974,"Desperate Hours, The (1955)",1,1
-1964,Wedding Crashers (2005),0,1
+1964,Wedding Crashers (2005),0,0
 14,Jurassic Park (1993),0,0
 3771,Miami Vice (2006),1,1
 3887,Losing Isaiah (1995),1,1
@@ -249,8 +249,8 @@ movieId,title,Drama,prediction
 9507,"Chant of Jimmy Blacksmith, The (1978)",1,1
 6768,Butterflies Are Free (1972),1,0
 3533,Next Friday (2000),0,0
-5459,Made of Honor (2008),0,1
-6864,"Hunter, The (1980)",0,1
+5459,Made of Honor (2008),0,0
+6864,"Hunter, The (1980)",0,0
 3547,Boys and Girls (2000),0,0
 3003,Frankenstein (Mary Shelley's Frankenstein) (1994),1,1
 7675,Narrow Margin (1990),0,1
@@ -270,7 +270,7 @@ movieId,title,Drama,prediction
 9034,Going Ape! (1981),0,0
 6253,Star Maps (1997),1,1
 3082,Godzilla vs. The Sea Monster (Gojira-Ebira-Mosura: Nankai no daiketto) (1966),1,0
-5338,It's My Party (1996),1,1
+5338,It's My Party (1996),1,0
 9322,Wedding Bell Blues (1996),0,0
 10232,Opening Night (1977),1,1
 1113,Assassins (1995),0,0
@@ -280,16 +280,16 @@ movieId,title,Drama,prediction
 4601,I Stand Alone (Seul contre tous) (1998),1,1
 5434,"Ring Two, The (2005)",1,0
 4879,Hard Candy (2005),1,1
-367,Ghost in the Shell (KÃ´kaku kidÃ´tai) (1995),0,1
+367,Ghost in the Shell (KÃ´kaku kidÃ´tai) (1995),0,0
 1284,"Bridges of Madison County, The (1995)",1,1
-7689,Big Nothing (2006),0,1
+7689,Big Nothing (2006),0,0
 8369,Homage (1995),1,1
-7520,Crush (2001),0,1
+7520,Crush (2001),0,0
 1688,"Thing from Another World, The (1951)",0,0
 8611,Get Over It (1996),1,0
 7204,Pocketful of Miracles (1961),1,1
 3437,Playing God (1997),1,1
-3984,"Adventures of Sebastian Cole, The (1998)",1,0
+3984,"Adventures of Sebastian Cole, The (1998)",1,1
 5465,Seven Pounds (2008),1,1
 9552,In the Winter Dark (1998),1,1
 2236,And Then There Were None (1945),0,1
@@ -297,16 +297,16 @@ movieId,title,Drama,prediction
 8323,Alaska: Spirit of the Wild (1997),0,1
 2287,Return to Me (2000),1,1
 10490,"Irony of fate (Ironiya sudby, ili S legkim parom!) (1975)",1,1
-8824,Past Midnight (1992),0,0
+8824,Past Midnight (1992),0,1
 5384,Cookie (1989),0,1
 967,"Last Starfighter, The (1984)",0,0
 651,Buffy the Vampire Slayer (1992),0,0
 4484,P.S. (2004),1,1
-1454,"Christmas Carol, A (1938)",1,0
+1454,"Christmas Carol, A (1938)",1,1
 543,"Bug's Life, A (1998)",0,0
 5682,"Innocents, The (1961)",1,1
 5350,Undisputed (2002),1,0
-8767,"Church, The (La Chiesa) (1989)",1,0
+8767,"Church, The (La Chiesa) (1989)",1,1
 2595,"Secret of NIMH, The (1982)",1,0
 4375,Madame SatÃ£ (2002),1,1
 5676,Are We Done Yet? (2007),0,0
@@ -317,7 +317,7 @@ movieId,title,Drama,prediction
 9490,Gold Diggers of 1933 (1933),0,1
 9884,Children of the Night (1991),0,0
 5397,Grand Theft Auto (1977),0,0
-346,Free Willy (1993),1,1
+346,Free Willy (1993),1,0
 5140,Jalla! Jalla! (2000),1,1
 2412,Red River (1948),0,1
 2629,Shampoo (1975),0,1
@@ -325,15 +325,15 @@ movieId,title,Drama,prediction
 9058,"Kentuckian, The (1955)",0,0
 5306,"Greatest Story Ever Told, The (1965)",1,1
 7747,Funny Games (2007),0,1
-5955,"Sticky Fingers of Time, The (1997)",0,1
+5955,"Sticky Fingers of Time, The (1997)",0,0
 10072,Ring of Terror (1962),0,0
 2018,U2: Rattle and Hum (1988),0,1
 3746,"Fearless Vampire Killers, The (1967)",0,1
 2709,Kung Fu Panda (2008),0,0
 9836,Dying of Laughter (Muertos de risa) (1999),0,1
-7752,Mr. Jealousy (1997),0,0
+7752,Mr. Jealousy (1997),0,1
 4216,"Adventures of Huck Finn, The (1993)",1,0
-4870,Havoc (2005),1,1
+4870,Havoc (2005),1,0
 8525,Split Second (1992),0,0
 318,Johnny Mnemonic (1995),0,0
 5361,Desk Set (1957),0,0
@@ -344,10 +344,10 @@ movieId,title,Drama,prediction
 6904,"War, Inc. (2008)",0,0
 4303,Cure (1997),0,1
 2138,"Sweet Hereafter, The (1997)",1,1
-6143,Midnight Madness (1980),0,1
+6143,Midnight Madness (1980),0,0
 5764,I Now Pronounce You Chuck and Larry (2007),0,0
 9675,Morgan: A Suitable Case for Treatment (1966),1,1
-9039,Boys Life 3 (2000),1,1
+9039,Boys Life 3 (2000),1,0
 5033,Dead Heat (1988),0,0
 1536,"Paper, The (1994)",1,1
 4513,Intimate Strangers (Confidences trop intimes) (2004),1,1
@@ -356,7 +356,7 @@ movieId,title,Drama,prediction
 135,Short Cuts (1993),1,1
 1516,Urban Legends: Final Cut (2000),0,0
 9898,Butterfly on a Wheel (2007),1,1
-8115,Twist (2003),1,1
+8115,Twist (2003),1,0
 1206,"Walk to Remember, A (2002)",1,1
 850,Equilibrium (2002),0,0
 4554,Factory Girl (2006),1,1
@@ -364,7 +364,7 @@ movieId,title,Drama,prediction
 4137,"Last Unicorn, The (1982)",0,0
 7923,How to Succeed in Business Without Really Trying (1967),0,0
 1825,Down to You (2000),0,0
-1373,Magnum Force (1973),1,1
+1373,Magnum Force (1973),1,0
 5615,Class of 1984 (1982),1,0
 3022,Paradise Road (1997),1,1
 483,Bulworth (1998),1,1
@@ -378,12 +378,12 @@ movieId,title,Drama,prediction
 9974,Daddy's Dyin'... Who's Got the Will? (1990),0,0
 4862,Venom (2005),0,0
 6604,Jesus Camp (2006),0,1
-3842,Cookie's Fortune (1999),1,0
+3842,Cookie's Fortune (1999),1,1
 4010,"Big Kahuna, The (2000)",1,1
 6128,Santa Fe Trail (1940),1,0
 510,Herbie Goes Bananas (1980),0,0
 3870,Heist (2001),1,1
-2859,"Play it Again, Sam (1972)",0,1
+2859,"Play it Again, Sam (1972)",0,0
 10646,Fools' Parade (1971),1,1
 5044,"Independent, The (2000)",0,1
 7571,"Lost Skeleton of Cadavra, The (2002)",0,0
@@ -414,38 +414,38 @@ movieId,title,Drama,prediction
 10675,Much Ado About Something (2001),0,1
 3,Outbreak (1995),1,0
 6669,Anastasia (1956),1,1
-1277,No Way to Treat a Lady (1968),1,0
+1277,No Way to Treat a Lady (1968),1,1
 6390,No Holds Barred (1989),0,0
 4429,Pierrot Le Fou (1965),1,1
 4156,"Dark Knight, The (2008)",1,0
 7077,Neighbors (1981),0,0
 4170,There Will Be Blood (2007),1,1
 2585,Wide Awake (1998),1,1
-1123,Meet John Doe (1941),1,1
-1768,Run Lola Run (Lola rennt) (1998),0,0
+1123,Meet John Doe (1941),1,0
+1768,Run Lola Run (Lola rennt) (1998),0,1
 3428,Nightwatch (1997),0,0
 9485,Roxie Hart (1942),0,0
 4273,Two Thousand Maniacs! (1964),0,0
 7808,Untraceable (2008),0,0
 10593,Variety Lights (Luci del varietÃ ) (1950),1,1
 10541,"Adios, Sabata (Indio Black, sai che ti dico: Sei un gran figlio di...) (1971)",0,0
-1905,Shogun Assassin (1980),0,1
+1905,Shogun Assassin (1980),0,0
 9649,Here Comes Cookie (1935),0,0
 10070,Harvest (1998),1,0
 562,Varsity Blues (1999),1,0
 10492,36 Quai des OrfÃ¨vres (Department 36) (2004),0,1
 5431,Riding the Bullet (2004),0,0
-10270,Import/Export (2007),1,1
+10270,Import/Export (2007),1,0
 9607,"Hole, The (a.k.a. Night Watch, The) (Trou, Le) (1960)",0,1
 10445,Red Road (2006),1,1
-3593,Great Balls of Fire! (1989),1,0
+3593,Great Balls of Fire! (1989),1,1
 6830,Gridiron Gang (2006),1,1
 7836,Heaven Can Wait (1943),0,1
 6459,Larry the Cable Guy: Health Inspector (2006),0,0
 3400,18 Again! (1988),0,0
 4704,Eagle vs Shark (2007),0,1
 5967,Kaena: The Prophecy (Kaena: La prophÃ©tie) (2003),0,0
-2319,Family Plot (1976),0,1
+2319,Family Plot (1976),0,0
 4210,My Uncle (Mon oncle) (1958),0,1
 5980,Fist of Legend (Jing wu ying xiong) (1994),1,0
 6351,Undertow (2004),1,1
@@ -456,7 +456,7 @@ movieId,title,Drama,prediction
 3710,"Tenant, The (1976)",0,1
 9674,"Earthling, The (1980)",1,1
 4607,"Cup, The (PhÃ¶rpa) (1999)",0,0
-7441,"Canterville Ghost, The (1944)",0,1
+7441,"Canterville Ghost, The (1944)",0,0
 9278,Slaves of New York (1989),1,0
 407,"Right Stuff, The (1983)",1,1
 5736,"This World, Then the Fireworks (1997)",1,1
@@ -465,51 +465,51 @@ movieId,title,Drama,prediction
 9202,Masked & Anonymous (2003),1,0
 9525,"Westerner, The (1940)",0,0
 4254,Beat the Devil (1953),1,1
-487,There's Something About Mary (1998),0,1
+487,There's Something About Mary (1998),0,0
 9910,"Burial Ground (a.k.a. Zombie Horror) (a.k.a. Zombie 3) (Notti del Terrore, Le) (1981)",0,0
 7176,"Woman Under the Influence, A (1974)",1,1
 6896,License to Wed (2007),0,0
 8803,Eye See You (D-Tox) (2002),0,0
 3353,"History of Violence, A (2005)",1,1
-3413,Mad Love (1995),1,1
+3413,Mad Love (1995),1,0
 8703,Nenette and Boni (NÃ©nette et Boni) (1996),1,1
 1885,"Guy Thing, A (2003)",0,0
 7073,Orphans (1997),1,1
 4165,"Laramie Project, The (2002)",1,1
 7529,"Year My Parents Went on Vacation, The (O Ano em Que Meus Pais SaÃ­ram de FÃ©rias) (2006)",1,0
-8616,Anna (1996),1,1
-9027,X: The Unknown (1956),0,0
-5956,"Joyriders, The (1999)",1,0
+8616,Anna (1996),1,0
+9027,X: The Unknown (1956),0,1
+5956,"Joyriders, The (1999)",1,1
 9365,Lady Sings the Blues (1972),1,1
 4977,Red Sonja (1985),0,0
 1261,"War of the Worlds, The (1953)",1,0
 1217,Peter Pan (2003),0,0
 7091,Reconstruction (2003),1,1
 7235,Baby Mama (2008),0,0
-7879,"Turning Point, The (1977)",1,1
+7879,"Turning Point, The (1977)",1,0
 3686,Iron Monkey (Siunin Wong Fei-hung tsi titmalau) (1993),0,0
 3045,"Dog's Life, A (1918)",0,1
 3463,Lifeforce (1985),0,0
 2751,Star Wreck: In the Pirkinning (2005),0,0
 900,"Texas Chainsaw Massacre, The (2003)",0,0
 7211,Privates on Parade (1982),1,0
-4345,Ms. 45 (a.k.a. Angel of Vengeance) (1981),1,1
+4345,Ms. 45 (a.k.a. Angel of Vengeance) (1981),1,0
 7887,"Chambermaid on the Titanic, The (Femme de chambre du Titanic, La) (1998)",0,0
 895,"Rookie, The (1990)",0,0
 10640,Cold Sweat (De la part des copains) (1970),1,0
 1807,Blank Check (1994),0,0
-5918,"Out-of-Towners, The (1970)",0,1
+5918,"Out-of-Towners, The (1970)",0,0
 6066,Little Boy Blue (1997),1,1
 3761,Kung Fu Hustle (Gong fu) (2004),0,0
 7985,"Wisdom of Crocodiles, The (a.k.a. Immortality) (2000)",0,0
-7852,"Man, The (2005)",0,1
+7852,"Man, The (2005)",0,0
 6613,"Story of Xinghua, The (Xinghua san yue tian) (1994)",1,1
 9427,No Turning Back (2001),1,0
 131,"Piano, The (1993)",1,1
 8345,"Legend of Boggy Creek, The (1972)",1,0
 5426,Below (2002),0,0
 3254,Kim (1950),1,0
-9730,Camp Rock (2008),0,0
+9730,Camp Rock (2008),0,1
 8015,"Long Riders, The (1980)",0,0
 4860,"Cave, The (2005)",0,0
 96,Toy Story (1995),0,0
@@ -539,19 +539,19 @@ movieId,title,Drama,prediction
 5874,War Photographer (2001),0,1
 10305,More (1998),0,1
 9993,Time Changer (2002),1,0
-9733,Some Kind of Hero (1982),1,0
+9733,Some Kind of Hero (1982),1,1
 1498,"Island of Dr. Moreau, The (1996)",0,0
 3231,No Way Out (1987),1,1
-7487,Lust for Life (1956),1,0
+7487,Lust for Life (1956),1,1
 1433,Jack (1996),1,0
 668,Predator (1987),0,0
 10635,Big Fella (1937),1,0
 3125,Together (Tillsammans) (2000),1,1
 8485,"Bothersome Man, The (Den Brysomme mannen) (2006)",1,1
 450,Kiss the Girls (1997),1,1
-7759,Diamond Men (2001),1,0
+7759,Diamond Men (2001),1,1
 4058,"Business of Strangers, The (2001)",1,1
-293,She Wore a Yellow Ribbon (1949),0,1
+293,She Wore a Yellow Ribbon (1949),0,0
 7921,Quigley Down Under (1990),1,0
 4626,Bangkok Dangerous (2000),0,1
 1147,Ferris Bueller's Day Off (1986),0,0
@@ -561,7 +561,7 @@ movieId,title,Drama,prediction
 8878,"Bon Cop, Bad Cop (2006)",0,1
 7474,Bedlam (1946),1,0
 10527,Rocco and His Brothers (Rocco e i suoi fratelli) (1960),1,1
-6083,Kurt & Courtney (1998),0,1
+6083,Kurt & Courtney (1998),0,0
 1981,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006),0,0
 7625,"Old Lady Who Walked in the Sea, The (Vieille qui marchait dans la mer, La) (1991)",0,1
 4863,Family Guy Presents: Stewie Griffin - The Untold Story (2005),0,0
@@ -582,32 +582,32 @@ movieId,title,Drama,prediction
 500,Lethal Weapon 3 (1992),1,0
 5507,Return to Never Land (2002),0,0
 3143,Queen Margot (La Reine Margot) (1994),1,1
-5064,Running Time (1997),0,0
+5064,Running Time (1997),0,1
 2447,"Immigrant, The (1917)",0,1
 259,"Sixth Sense, The (1999)",1,1
 5674,Woo (1998),0,0
 5965,D.O.A. (1950),1,1
 9505,Morocco (1930),1,1
 6326,Ernest Goes to Africa (1997),0,0
-3934,Zero Effect (1998),0,1
-10367,"Oxford Murders, The (2007)",0,1
-3708,Once a Thief (Zong Heng si Hai) (1991),0,0
+3934,Zero Effect (1998),0,0
+10367,"Oxford Murders, The (2007)",0,0
+3708,Once a Thief (Zong Heng si Hai) (1991),0,1
 3898,Of Love and Shadows (1994),1,1
 2899,Howl's Moving Castle (Hauru no ugoku shiro) (2004),0,1
-9346,It Had to Be You (2000),0,0
+9346,It Had to Be You (2000),0,1
 1740,"Road to El Dorado, The (2000)",0,0
 3397,"Man in the Moon, The (1991)",1,1
 2168,"Lady Vanishes, The (1938)",1,1
 3405,Showtime (2002),0,0
-4256,I Can't Sleep (J'ai pas sommeil) (1994),1,0
+4256,I Can't Sleep (J'ai pas sommeil) (1994),1,1
 2107,Barcelona (1994),0,1
-6952,Gomorra (2008),1,0
+6952,Gomorra (2008),1,1
 9994,Rails & Ties (2007),1,0
-8732,Carolina (2005),0,0
+8732,Carolina (2005),0,1
 6524,From Beyond (1986),0,0
 8290,Killing Me Softly (2002),1,1
 5851,Beaufort (2007),1,1
-9988,"Abbott and Costello Meet the Killer, Boris Karloff (1949)",0,1
+9988,"Abbott and Costello Meet the Killer, Boris Karloff (1949)",0,0
 883,"Medallion, The (2003)",0,0
 10354,"Strange Case of Dr. Jekyll and Mr. Hyde, The (1968)",1,0
 8645,Resurrection Man (1998),1,0
@@ -617,7 +617,7 @@ movieId,title,Drama,prediction
 10129,Confessions of a Superhero (2007),0,0
 8159,Prom Night IV: Deliver Us From Evil (1992),0,0
 9807,Silent Trigger (1996),1,0
-6478,Bustin' Loose (1981),0,1
+6478,Bustin' Loose (1981),0,0
 9694,"Seagulls Laughter, The (MÃ¡vahlÃ¡tur) (2001)",1,1
 4908,Captives (1994),1,1
 7589,S.F.W. (1994),1,0
@@ -630,13 +630,13 @@ movieId,title,Drama,prediction
 9839,CSNY DÃ©jÃ  Vu (2008),0,1
 5427,May (2002),1,1
 5206,Coal Miner's Daughter (1980),1,1
-8986,Bolero (Les Uns et les Autres) (1981),1,1
+8986,Bolero (Les Uns et les Autres) (1981),1,0
 9618,"Designated Mourner, The (1997)",1,1
 565,Payback (1999),0,0
 7793,"Honeymooners, The (2005)",0,0
 5763,Cashback (2006),1,1
 9209,"Seeker: The Dark Is Rising, The (2007)",1,0
-9368,Johnny Belinda (1948),1,0
+9368,Johnny Belinda (1948),1,1
 1617,Bride of Frankenstein (1935),1,0
 4301,Frantic (1988),0,1
 5547,Shopping (1994),0,0
@@ -646,7 +646,7 @@ movieId,title,Drama,prediction
 4192,Missing in Action 2: The Beginning (1985),0,0
 4475,Early Summer (BakushÃ») (1951),1,1
 7495,"Walking Dead, The (1936)",0,0
-10403,Courage Mountain (1990),1,1
+10403,Courage Mountain (1990),1,0
 9666,Coming Apart (1969),1,1
 1593,Son in Law (1993),0,0
 2375,Faust (1926),0,1
@@ -656,10 +656,10 @@ movieId,title,Drama,prediction
 4048,Captain Corelli's Mandolin (2001),1,1
 321,Species (1995),0,0
 2417,Diabolique (Les Diaboliques) (1955),0,1
-426,Grease (1978),0,1
+426,Grease (1978),0,0
 427,Under Siege (1992),1,0
 2678,"Rapture, The (1991)",1,0
-1732,Hanging Up (2000),1,1
+1732,Hanging Up (2000),1,0
 3780,Metro (1997),1,0
 7081,Relative Fear (1994),0,0
 7988,"Flower of Evil, The (La Fleur du Mal) (2003)",1,0
@@ -677,7 +677,7 @@ movieId,title,Drama,prediction
 4184,Angel and the Badman (1947),0,0
 2152,"Incredible Journey, The (1963)",0,0
 7322,Deadly Blessing (1981),0,0
-6013,Castle Keep (1969),1,0
+6013,Castle Keep (1969),1,1
 7113,Ladder 49 (2004),1,1
 330,"Quick and the Dead, The (1995)",0,0
 6670,Nuts (1987),1,1
@@ -691,18 +691,18 @@ movieId,title,Drama,prediction
 8515,Silent Fall (1994),1,1
 6779,"Stranger, The (1994)",0,1
 457,Stripes (1981),0,0
-2523,"Taming of the Shrew, The (1967)",0,0
+2523,"Taming of the Shrew, The (1967)",0,1
 9462,"President's Analyst, The (1967)",0,1
 6001,101 Reykjavik (101 ReykjavÃ­k) (2000),1,1
 9223,"Mesmerist, The (2002)",0,0
 7438,Irma Vep (1996),1,1
 31,Independence Day (a.k.a. ID4) (1996),0,0
-4076,K-19: The Widowmaker (2002),1,1
+4076,K-19: The Widowmaker (2002),1,0
 8730,Dracula: Prince of Darkness (1966),0,0
 6977,Taxi to the Dark Side (2007),0,1
 3070,Battle for the Planet of the Apes (1973),0,0
 6648,Blind Chance (Przypadek) (1981),1,1
-9813,Anna (1987),1,1
+9813,Anna (1987),1,0
 9735,"Kiss Me, Stupid (1964)",0,1
 6870,Le Mans (1971),0,0
 7983,Trembling Before G-d (2001),0,1
@@ -729,7 +729,7 @@ movieId,title,Drama,prediction
 5111,Pooh's Heffalump Movie (2005),0,1
 169,Manhattan (1979),1,1
 852,Heavy Metal 2000 (2000),0,0
-1891,Tears of the Sun (2003),1,0
+1891,Tears of the Sun (2003),1,1
 1355,European Vacation (1985),0,0
 2351,"Hustler, The (1961)",1,1
 1157,Phantasm IV: Oblivion (1998),0,0
@@ -739,11 +739,11 @@ movieId,title,Drama,prediction
 9720,Salsa (1988),0,0
 2025,Only You (1994),0,0
 937,Dogville (2003),1,1
-6946,Biggie and Tupac (2002),0,1
+6946,Biggie and Tupac (2002),0,0
 9395,"Last Shot, The (2004)",0,0
 5680,"Four Feathers, The (2002)",0,1
-2516,Tommy (1975),1,0
-5325,Kopps (2003),0,1
+2516,Tommy (1975),1,1
+5325,Kopps (2003),0,0
 7379,Brain Damage (1988),0,0
 315,Desperado (1995),0,0
 6817,Ice Princess (2005),1,0
@@ -755,7 +755,7 @@ movieId,title,Drama,prediction
 2894,"Little Princess, The (1939)",1,1
 1793,Better Off Dead... (1985),0,0
 2846,Babette's Feast (Babettes gÃ¦stebud) (1987),1,1
-2483,"Innocent Sleep, The (1996)",0,1
+2483,"Innocent Sleep, The (1996)",0,0
 4089,Tully (2000),1,1
 10510,Dog Run (1996),1,0
 1523,Two Family House (2000),1,1
@@ -772,7 +772,7 @@ movieId,title,Drama,prediction
 7342,Urgh! A Music War (1981),0,1
 5992,"Endless Summer, The (1966)",0,1
 9854,Big Trouble (1986),0,0
-10213,Suspended Animation (2001),0,1
+10213,Suspended Animation (2001),0,0
 3528,Love Stinks (1999),0,0
 7243,Swing Vote (2008),0,1
 9276,Color Me Blood Red (1965),0,0
@@ -781,17 +781,17 @@ movieId,title,Drama,prediction
 2737,Birdy (1984),1,1
 5328,"Omega Code, The (1999)",0,0
 8098,Veer Zaara (2004),1,1
-713,Vertical Limit (2000),0,1
-4053,Rock Star (2001),1,1
+713,Vertical Limit (2000),0,0
+4053,Rock Star (2001),1,0
 1194,Tarzan (1999),0,0
 10068,Nomad (2005),1,0
-5421,Woman on Top (2000),0,1
+5421,Woman on Top (2000),0,0
 9453,Another You (1991),0,0
 4791,Alexander Nevsky (Aleksandr Nevskiy) (1938),1,1
 1576,"Client, The (1994)",1,1
 3233,Finding Forrester (2000),1,1
 3692,"Giant Spider Invasion, The (1975)",0,0
-1710,Princess Mononoke (Mononoke-hime) (1997),1,0
+1710,Princess Mononoke (Mononoke-hime) (1997),1,1
 4439,Bring Me the Head of Alfredo Garcia (1974),1,1
 9478,"Men, The (1950)",1,1
 9275,"Battle of the Sexes, The (1959)",0,1
@@ -801,16 +801,16 @@ movieId,title,Drama,prediction
 9063,At the Earth's Core (1976),0,0
 1795,In & Out (1997),0,1
 5137,"Cuckoo, The (Kukushka) (2002)",1,1
-3522,Eight Days a Week (1997),0,1
+3522,Eight Days a Week (1997),0,0
 532,Toys (1992),0,0
-10291,"Secret Life of Bees, The (2008)",1,1
+10291,"Secret Life of Bees, The (2008)",1,0
 10513,"Funeral, The (Ososhiki) (1984)",0,1
 8809,Used People (1992),1,1
 10273,Twin Sitters (1994),0,0
 2909,Jackass Number Two (2006),0,0
 5748,Fists of Fury (Tang shan da xiong) (1971),0,0
-3288,Touching the Void (2003),0,0
-7363,"House with Laughing Windows, The (La Casa dalle Finestre che Ridono) (1976)",0,0
+3288,Touching the Void (2003),0,1
+7363,"House with Laughing Windows, The (La Casa dalle Finestre che Ridono) (1976)",0,1
 4128,It Came from Beneath the Sea (1955),0,0
 4418,Since Otar Left (Depuis qu'Otar est parti...) (2003),1,1
 2507,Mona Lisa (1986),0,1
@@ -820,7 +820,7 @@ movieId,title,Drama,prediction
 9508,Let Him Have It (1991),1,1
 7659,Dust (2001),1,0
 5931,Who Killed the Electric Car? (2006),0,0
-4564,Mumford (1999),1,0
+4564,Mumford (1999),1,1
 10372,Bad Eggs (2003),0,0
 2692,"Shipping News, The (2001)",1,1
 5766,Be Kind Rewind (2008),0,0
@@ -831,7 +831,7 @@ movieId,title,Drama,prediction
 3860,New Rose Hotel (1998),1,0
 5718,"Child, The (L'Enfant) (2005)",1,1
 710,How the Grinch Stole Christmas (a.k.a. The Grinch) (2000),0,0
-5003,Color of Night (1994),1,1
+5003,Color of Night (1994),1,0
 1786,Life with Mikey (1993),0,0
 7817,And When Did You Last See Your Father? (2007),1,0
 4279,Trouble in Paradise (1932),0,1
@@ -854,7 +854,7 @@ movieId,title,Drama,prediction
 10303,"Deathmaker, The (Der Totmacher) (1995)",1,1
 624,House on Haunted Hill (1999),0,0
 3706,Straw Dogs (1971),1,1
-4404,Secret Things (Choses secrÃ¨tes) (2002),1,1
+4404,Secret Things (Choses secrÃ¨tes) (2002),1,0
 1160,Transformers: The Movie (1986),0,0
 10423,"Friend of Mine, A (Ein Freund von mir) (2006)",1,1
 6130,Road to Morocco (1942),0,0
@@ -869,10 +869,10 @@ movieId,title,Drama,prediction
 6249,American Flyers (1985),1,0
 2753,Pirates of the Caribbean: Dead Man's Chest (2006),0,0
 8876,"King, The (2005)",1,1
-8925,Ivanhoe (1952),1,1
+8925,Ivanhoe (1952),1,0
 5196,Pelle the Conqueror (Pelle erobreren) (1987),1,1
 1180,"Baby-Sitters Club, The (1995)",0,0
-5477,Gigantic (A Tale of Two Johns) (2002),0,0
+5477,Gigantic (A Tale of Two Johns) (2002),0,1
 3482,Phantasm III: Lord of the Dead (1994),0,0
 3024,Welcome To Sarajevo (1997),1,1
 3601,Troop Beverly Hills (1989),0,0
@@ -882,22 +882,22 @@ movieId,title,Drama,prediction
 295,Top Secret! (1984),0,0
 3895,"Wedding Gift, The (1994)",1,1
 5657,Catwoman (2004),0,0
-10496,Conflict (1945),1,0
+10496,Conflict (1945),1,1
 4397,Things You Can Tell Just by Looking at Her (2000),1,1
 9040,Down From the Mountain (2000),0,1
 5076,Undercover Blues (1993),0,0
 761,Twins (1988),0,0
 4023,What's Cooking? (2000),1,1
-286,"Big Heat, The (1953)",1,1
+286,"Big Heat, The (1953)",1,0
 9587,Siegfried & Roy: The Magic Box (1999),0,1
 10424,April Captains (CapitÃ£es de Abril) (2000),1,1
-7756,Nowhere to Hide (Injeong sajeong bol geot eobtda) (1999),0,1
+7756,Nowhere to Hide (Injeong sajeong bol geot eobtda) (1999),0,0
 1285,Rumble in the Bronx (Hont faan kui) (1995),0,0
 9768,Vitus (2006),1,1
 1501,Pretty in Pink (1986),1,0
 10444,"Page Turner, The (Tourneuse de pages, La) (2006)",1,1
 4115,"Cooler, The (2003)",1,1
-2098,Rocky Balboa (2006),1,1
+2098,Rocky Balboa (2006),1,0
 333,Tales from the Crypt Presents: Demon Knight (1995),0,0
 3021,Smilla's Sense of Snow (1997),1,1
 7332,Too Beautiful for You (Trop belle pour toi) (1989),1,1
@@ -922,7 +922,7 @@ movieId,title,Drama,prediction
 1530,"Legend of Drunken Master, The (Jui Kuen II) (1994)",0,0
 1870,Indian Summer (1993),1,0
 7388,I'm Going Home (Je rentre Ã  la maison) (2001),1,0
-8316,"Niagara, Niagara (1997)",1,0
+8316,"Niagara, Niagara (1997)",1,1
 9295,"Easy Come, Easy Go (1967)",0,0
 9672,Worth Winning (1989),0,0
 3685,Santa Sangre (1989),1,1
@@ -948,7 +948,7 @@ movieId,title,Drama,prediction
 9876,Mon Oncle Antoine (1971),1,1
 3527,Problem Child 2 (1991),0,0
 5272,Alice Doesn't Live Here Anymore (1974),1,1
-3050,Auntie Mame (1958),1,0
+3050,Auntie Mame (1958),1,1
 10161,First Descent (2005),0,0
 210,"Knight's Tale, A (2001)",0,0
 1511,Love & Sex (2000),0,0
@@ -963,8 +963,8 @@ movieId,title,Drama,prediction
 8312,Chapter 27 (2007),1,1
 8840,Black Rainbow (1989),0,1
 6536,"Ruins, The (2008)",0,0
-2328,"Lodger, The (1927)",1,1
-9330,Drums Along the Mohawk (1939),0,1
+2328,"Lodger, The (1927)",1,0
+9330,Drums Along the Mohawk (1939),0,0
 9182,Stardom (2000),1,0
 2012,Say Anything... (1989),1,1
 3905,Grace of My Heart (1996),1,1
@@ -973,15 +973,15 @@ movieId,title,Drama,prediction
 1578,Highlander III: The Sorcerer (a.k.a. Highlander: The Final Dimension) (1994),0,0
 2984,Superman Returns (2006),0,0
 1488,Bio-Dome (1996),0,0
-8452,Yellowbeard (1983),0,0
-10317,"Plague Dogs, The (1982)",1,1
+8452,Yellowbeard (1983),0,1
+10317,"Plague Dogs, The (1982)",1,0
 8127,Dutch (1991),0,0
 8261,Sprung (1997),0,0
 1803,Almost Heroes (1998),0,0
 5425,Dark Blue World (TmavomodrÃ½ svet) (2001),1,1
 1068,Man Facing Southeast (Hombre mirando al sudeste) (1986),1,1
 4919,Body Shots (1999),1,1
-6820,Valiant (2005),0,1
+6820,Valiant (2005),0,0
 6785,Hair (1979),1,1
 4614,Tigerland (2000),1,1
 106,Angels and Insects (1995),1,1
@@ -989,8 +989,8 @@ movieId,title,Drama,prediction
 8430,On Any Sunday (1971),0,1
 590,"South Park: Bigger, Longer and Uncut (1999)",0,0
 1509,"Original Kings of Comedy, The (2000)",0,0
-6867,Dead Reckoning (1947),1,0
-2128,"Thin Man, The (1934)",0,0
+6867,Dead Reckoning (1947),1,1
+2128,"Thin Man, The (1934)",0,1
 4373,Fulltime Killer (Chuen jik sat sau) (2001),0,1
 8241,Family Viewing (1987),1,1
 8599,Rated X (2000),1,1
@@ -999,20 +999,20 @@ movieId,title,Drama,prediction
 1254,Swiss Family Robinson (1960),0,0
 9796,Sawdust and Tinsel (Gycklarnas afton) (1953),1,1
 2586,Blackbeard's Ghost (1968),0,0
-10348,3 Godfathers (1948),1,0
+10348,3 Godfathers (1948),1,1
 5095,Passenger 57 (1992),0,0
 6603,Out Cold (1989),0,0
 2648,"Good Mother, The (1988)",1,1
 7039,Rendition (2007),1,1
-6699,Nadja (1994),1,0
+6699,Nadja (1994),1,1
 3458,House II: The Second Story (1987),0,0
 3169,Addicted to Love (1997),0,0
 4080,Hush! (2001),1,1
 5022,King Creole (1958),1,0
-3885,Three Wishes (1995),1,0
+3885,Three Wishes (1995),1,1
 4740,Children of the Corn III (1994),0,0
-2589,One Magic Christmas (1985),1,1
-6921,Once Upon a Time in the Midlands (2002),1,0
+2589,One Magic Christmas (1985),1,0
+6921,Once Upon a Time in the Midlands (2002),1,1
 4420,Young Adam (2003),1,0
 3014,Body Snatchers (1993),0,0
 5601,"Great Rock 'n' Roll Swindle, The (1980)",0,0
@@ -1028,7 +1028,7 @@ movieId,title,Drama,prediction
 7709,Appaloosa (2008),0,1
 7178,"Wild One, The (1953)",1,1
 10340,"Mountain Eagle, The (1926)",1,0
-29,"Rock, The (1996)",0,0
+29,"Rock, The (1996)",0,1
 10667,Demon Lover Diary (1980),0,1
 2815,Waking Life (2001),1,1
 8385,"GarÃ§u, Le (1995)",1,1
@@ -1042,13 +1042,13 @@ movieId,title,Drama,prediction
 217,Singin' in the Rain (1952),0,0
 6137,Lamerica (1994),1,1
 1406,Under Siege 2: Dark Territory (1995),0,0
-108,"Birdcage, The (1996)",0,0
+108,"Birdcage, The (1996)",0,1
 2304,O (2001),1,1
 6076,"Endless Summer 2, The (1994)",0,1
 4613,"Specials, The (2000)",0,0
 10639,One Hour with You (1932),0,0
 1479,What's Eating Gilbert Grape (1993),1,1
-10312,Hey Hey It's Esther Blueburger (2008),1,1
+10312,Hey Hey It's Esther Blueburger (2008),1,0
 5418,Be Cool (2005),0,0
 5581,Watchers (1988),0,0
 5500,Vamp (1986),0,0
@@ -1060,10 +1060,10 @@ movieId,title,Drama,prediction
 3540,Me Myself I (2000),0,0
 10285,"""Great Performances"" Cats (1998)",0,1
 5013,Cavalcade (1933),1,1
-7621,Quartier Mozart (1992),0,0
+7621,Quartier Mozart (1992),0,1
 1923,Along Came a Spider (2001),0,1
 7224,Bollywood/Hollywood (2002),1,0
 8904,Mondo (1996),1,1
 6447,Come Undone (Presque Rien) (2000),1,1
-576,Forces of Nature (1999),0,1
+576,Forces of Nature (1999),0,0
 3154,Basquiat (1996),1,1
