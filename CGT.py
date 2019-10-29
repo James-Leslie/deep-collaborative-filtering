@@ -5,7 +5,7 @@ from tensorflow.keras.layers import Input, Embedding, Flatten, Dot, Add, Dense, 
 from tensorflow.keras.models import Model
 
 
-def get_baseline(df, train_index, test_index):
+def get_baseline(df, train_index, test_index, user_col, item_col):
     
     '''
     Calculate baseline features from an explicit ratings dataset. Receives a dataframe
@@ -32,7 +32,7 @@ def get_baseline(df, train_index, test_index):
 
     # compute average item ratings
     item_averages = train.groupby(
-        'movieId'
+        item_col
     ).agg(
         {'rating':'mean'}
     ).rename(
@@ -40,14 +40,14 @@ def get_baseline(df, train_index, test_index):
     ).reset_index()
     
     # add as column to train and test
-    train = pd.merge(train, item_averages, how='left', on='movieId')
-    test = pd.merge(test, item_averages, how='left', on='movieId').fillna(global_mean)
+    train = pd.merge(train, item_averages, how='left', on=item_col)
+    test = pd.merge(test, item_averages, how='left', on=item_col).fillna(global_mean)
     
     # compute average user bias
     train['user_bias'] = train['rating'] - train['item_avg']
     
     user_biases = train.groupby(
-        'userId'
+        user_col
     ).agg(
         {'user_bias':'mean'}
     ).rename(
@@ -55,8 +55,8 @@ def get_baseline(df, train_index, test_index):
     ).reset_index()
     
     # add as column to train and test
-    train = pd.merge(train, user_biases, how='left', on='userId')
-    test = pd.merge(test, user_biases, how='left', on='userId').fillna(0.0)
+    train = pd.merge(train, user_biases, how='left', on=user_col)
+    test = pd.merge(test, user_biases, how='left', on=user_col).fillna(0.0)
     
     # interaction bias
     train['bias'] = (train['user_avg'] + train['item_avg'] - global_mean)/2
