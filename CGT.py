@@ -82,13 +82,19 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
     user_vec = Flatten()(user_em)
     # user x item bias
     bias = Input(shape=[1])
-    # concatenate user and item vectors
-    conc = Concatenate()([item_vec, user_vec])
-    # hidden layer with leaky ReLU and dropout
-    x1 = Dense(n_hidden_1, activation=activation)(conc)
-    x1 = Dropout(dropout_1)(x1)
-    # raw output
-    x1 = Dense(1)(x1)
+    if n_hidden_1:
+        # concatenate user and item vectors
+        x1 = Concatenate()([item_vec, user_vec])
+        # add all hidden layers
+        for i in range(len(n_hidden_1)):
+            x1 = Dense(n_hidden_1[i], activation=activation)(x1)
+            x1 = Dropout(dropout_1)(x1)
+        # raw output
+        x1 = Dense(1)(x1)
+    else:
+        # dot product
+        x1 = Dot(axes=1)([item_vec, user_vec])
+        
     # add interaction bias to get adjusted rating
     x1 = tf.math.add(Add()([x1, bias]), mean_rating)
     # clip rating to be between min and max
@@ -98,9 +104,13 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
     model.compile(optimizer='adam', loss='mean_squared_error')
     
     # model 2
-    # hidden layer with leaky ReLU and dropout
-    x2 = Dense(n_hidden_2, activation=activation)(item_vec)
+    # hidden layer with ReLU and dropout
+    x2 = Dense(n_hidden_2[0], activation=activation)(item_vec)
     x2 = Dropout(dropout_2)(x2)
+    # add subsequent hidden layers
+    for i in range(len(n_hidden_2)-1):
+        x2 = Dense(n_hidden_2[i+1], activation=activation)(x2)
+        x2 = Dropout(dropout_2)(x2)
     # add sigmoid activation function
     genre = Dense(1, activation='sigmoid')(x2)
     # create model and compile it
