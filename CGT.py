@@ -163,9 +163,12 @@ def compile_multigenre_model(n_items, n_users, min_rating, max_rating, mean_rati
     model.compile(optimizer='adam', loss='mean_squared_error')
     
     # model 2
-    # hidden layer with leaky ReLU and dropout
-    x2 = Dense(n_hidden_2, activation=activation)(item_vec)
+    x2 = Dense(n_hidden_2[0], activation=activation)(item_vec)
     x2 = Dropout(dropout_2)(x2)
+    # add subsequent hidden layers
+    for i in range(len(n_hidden_2)-1):
+        x2 = Dense(n_hidden_2[i+1], activation=activation)(x2)
+        x2 = Dropout(dropout_2)(x2)
     # add sigmoid activation function
     genre = Dense(n_genres, activation='sigmoid')(x2)
     # create model and compile it
