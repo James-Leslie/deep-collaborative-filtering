@@ -4,17 +4,17 @@ movieId,title,Drama,prediction
 657,Gandhi (1982),1,1
 473,"Madness of King George, The (1994)",1,1
 663,"Transformers: The Movie, The (1986)",0,0
-172,"Firm, The (1993)",1,0
+172,"Firm, The (1993)",1,1
 48,Kiss the Girls (1997),1,1
 1074,"Hate (Haine, La) (1995)",1,1
 1161,That Old Feeling (1997),0,0
-1162,Madame Butterfly (1995),0,0
+1162,Madame Butterfly (1995),0,1
 902,"Daytrippers, The (1996)",0,1
 595,Breaking the Waves (1996),1,1
 873,Lone Star (1996),1,1
 278,Eraser (1996),0,0
 1330,Jason's Lyric (1994),1,1
-859,Picnic (1955),1,1
+859,Picnic (1955),1,0
 815,Anna Karenina (1997),1,1
 1132,"Pest, The (1997)",0,0
 567,"Room with a View, A (1986)",1,1
@@ -22,9 +22,9 @@ movieId,title,Drama,prediction
 514,"Very Brady Sequel, A (1996)",0,0
 301,Lawnmower Man 2: Beyond Cyberspace (1996),0,0
 1262,Body Parts (1991),0,0
-1286,1-900 (1994),0,1
-1088,Little Odessa (1994),1,1
-694,Some Like It Hot (1959),0,1
+1286,1-900 (1994),0,0
+1088,Little Odessa (1994),1,0
+694,Some Like It Hot (1959),0,0
 636,Hearts and Minds (1996),1,1
 350,"Lost World: Jurassic Park, The (1997)",0,0
 1111,C'est arrivé près de chez vous (1992),1,1
@@ -34,18 +34,18 @@ movieId,title,Drama,prediction
 385,Bedknobs and Broomsticks (1971),0,0
 1095,"Apple Dumpling Gang, The (1975)",0,0
 743,"Program, The (1993)",1,0
-855,Things to Do in Denver when You're Dead (1995),1,0
-640,"Die xue shuang xiong (Killer, The) (1989)",0,1
+855,Things to Do in Denver when You're Dead (1995),1,1
+640,"Die xue shuang xiong (Killer, The) (1989)",0,0
 520,Romeo Is Bleeding (1993),0,0
 1660,Nightwatch (1997),0,0
-760,"Ruling Class, The (1972)",0,1
-117,"Devil's Own, The (1997)",1,0
+760,"Ruling Class, The (1972)",0,0
+117,"Devil's Own, The (1997)",1,1
 300,Lost Horizon (1937),1,1
-1529,"Crude Oasis, The (1995)",0,0
-202,Pollyanna (1960),1,0
-1436,Star Kid (1997),0,1
+1529,"Crude Oasis, The (1995)",0,1
+202,Pollyanna (1960),1,1
+1436,Star Kid (1997),0,0
 1163,"Maybe, Maybe Not (Bewegte Mann, Der) (1994)",0,1
-361,Psycho (1960),0,1
+361,Psycho (1960),0,0
 879,Ready to Wear (Pret-A-Porter) (1994),0,0
 554,"Wedding Singer, The (1998)",0,0
 252,Alien: Resurrection (1997),0,0
@@ -54,43 +54,43 @@ movieId,title,Drama,prediction
 1217,"Bye Bye, Love (1995)",0,0
 282,Coneheads (1993),0,0
 688,"Inkwell, The (1994)",1,1
-795,"39 Steps, The (1935)",0,1
+795,"39 Steps, The (1935)",0,0
 413,Beavis and Butt-head Do America (1996),0,0
 646,Casino (1995),1,1
-434,Jack (1996),1,0
-851,Soul Food (1997),1,0
+434,Jack (1996),1,1
+851,Soul Food (1997),1,1
 54,Conan the Barbarian (1981),0,0
-1555,"Hunted, The (1995)",0,0
+1555,"Hunted, The (1995)",0,1
 952,City of Angels (1998),0,0
 108,Annie Hall (1977),0,1
 1080,Relative Fear (1994),0,0
 1285,Gabbeh (1996),1,1
-1029,Two Much (1996),0,0
-1567,Open Season (1996),0,0
+1029,Two Much (1996),0,1
+1567,Open Season (1996),0,1
 1287,"Innocents, The (1961)",0,0
 1099,White Man's Burden (1995),1,0
-753,"Man Who Would Be King, The (1975)",0,1
+753,"Man Who Would Be King, The (1975)",0,0
 1257,Mortal Kombat: Annihilation (1997),0,0
-1649,"Wife, The (1995)",1,0
-1483,Nowhere (1997),1,1
+1649,"Wife, The (1995)",1,1
+1483,Nowhere (1997),1,0
 915,"Big Blue, The (Grand bleu, Le) (1988)",0,0
-46,"Last of the Mohicans, The (1992)",0,1
+46,"Last of the Mohicans, The (1992)",0,0
 1243,Indian Summer (1996),1,1
 916,Lightning Jack (1994),0,0
 850,Best of the Best 3: No Turning Back (1995),0,0
-1549,"Wooden Man's Bride, The (Wu Kui) (1994)",1,0
+1549,"Wooden Man's Bride, The (Wu Kui) (1994)",1,1
 695,Leaving Las Vegas (1995),1,1
 950,Eve's Bayou (1997),1,1
-505,"Wild Bunch, The (1969)",0,1
-1187,"Substance of Fire, The (1996)",1,0
+505,"Wild Bunch, The (1969)",0,0
+1187,"Substance of Fire, The (1996)",1,1
 199,Delicatessen (1991),0,1
 119,My Family (1995),1,1
-1253,Little Lord Fauntleroy (1936),1,0
+1253,Little Lord Fauntleroy (1936),1,1
 1659,"Further Gesture, A (1996)",1,0
 938,"Quick and the Dead, The (1995)",0,0
 404,In & Out (1997),0,0
 1145,"Ice Storm, The (1997)",1,1
-1668,Normal Life (1996),1,0
+1668,Normal Life (1996),1,1
 417,"Three Musketeers, The (1993)",0,0
 415,"Island of Dr. Moreau, The (1996)",0,0
 8,Grease (1978),0,0
@@ -98,58 +98,58 @@ movieId,title,Drama,prediction
 1645,Careful (1992),0,0
 311,Aliens (1986),0,0
 1370,Gumby: The Movie (1995),0,0
-1506,Germinal (1993),1,0
+1506,Germinal (1993),1,1
 126,Bio-Dome (1996),0,0
 597,Looking for Richard (1996),1,1
-125,Vertigo (1958),0,1
+125,Vertigo (1958),0,0
 1308,King of the Hill (1993),1,1
 275,"Bridge on the River Kwai, The (1957)",1,1
-39,French Twist (Gazon maudit) (1995),0,0
+39,French Twist (Gazon maudit) (1995),0,1
 1092,Young Guns II (1990),0,0
 578,Rocket Man (1997),0,0
 1610,"Woman in Question, The (1950)",0,0
-788,"Convent, The (Convento, O) (1995)",1,0
+788,"Convent, The (Convento, O) (1995)",1,1
 316,Home for the Holidays (1995),1,1
-961,Now and Then (1995),1,0
+961,Now and Then (1995),1,1
 431,Stand by Me (1986),1,1
 507,"Quest, The (1996)",0,0
-113,"Shining, The (1980)",0,1
+113,"Shining, The (1980)",0,0
 989,"Return of Martin Guerre, The (Retour de Martin Guerre, Le) (1982)",1,1
 55,Naked Gun 33 1/3: The Final Insult (1994),0,0
-36,Rear Window (1954),0,1
+36,Rear Window (1954),0,0
 729,His Girl Friday (1940),0,0
 7,"Jungle Book, The (1994)",0,0
-384,Laura (1944),0,1
-1476,Touki Bouki (Journey of the Hyena) (1973),1,0
+384,Laura (1944),0,0
+1476,Touki Bouki (Journey of the Hyena) (1973),1,1
 153,Face/Off (1997),0,0
 379,Priest (1994),1,1
-331,Crash (1996),1,0
+331,Crash (1996),1,1
 469,Dolores Claiborne (1994),1,1
 796,Heavy Metal (1981),0,0
 89,Sense and Sensibility (1995),1,1
 1307,Dunston Checks In (1996),0,0
 726,"Aristocats, The (1970)",0,0
 1063,Persuasion (1995),0,1
-1006,Kids in the Hall: Brain Candy (1996),0,1
+1006,Kids in the Hall: Brain Candy (1996),0,0
 728,Mute Witness (1994),0,0
 1343,Welcome To Sarajevo (1997),1,1
 509,"Secret of Roan Inish, The (1994)",0,1
 1302,"Last Time I Committed Suicide, The (1997)",1,1
 1270,Cronos (1992),0,0
 131,Father of the Bride Part II (1995),0,0
-1596,Johnny 100 Pesos (1993),1,0
-1201,Margaret's Museum (1995),1,0
-672,Waiting for Guffman (1996),0,1
-501,Bound (1996),1,1
+1596,Johnny 100 Pesos (1993),1,1
+1201,Margaret's Museum (1995),1,1
+672,Waiting for Guffman (1996),0,0
+501,Bound (1996),1,0
 1090,"Ghost and Mrs. Muir, The (1947)",1,0
 751,Boogie Nights (1997),1,1
 111,In the Name of the Father (1993),1,1
-762,To Gillian on Her 37th Birthday (1996),1,0
+762,To Gillian on Her 37th Birthday (1996),1,1
 1547,Hush (1998),0,0
-1333,Safe Passage (1994),1,0
+1333,Safe Passage (1994),1,1
 587,"Sex, Lies, and Videotape (1989)",1,0
 280,"Game, The (1997)",0,0
-848,Ponette (1996),1,0
+848,Ponette (1996),1,1
 898,No Escape (1994),0,0
 1275,"Search for One-eye Jimmy, The (1996)",0,0
 792,Cops and Robbersons (1994),0,0
@@ -161,7 +161,7 @@ movieId,title,Drama,prediction
 1426,Celestial Clockwork (1994),0,1
 1349,My Crazy Life (Mi vida loca) (1993),1,1
 310,French Kiss (1995),0,0
-241,"Maltese Falcon, The (1941)",0,1
+241,"Maltese Falcon, The (1941)",0,0
 253,Star Trek VI: The Undiscovered Country (1991),0,0
 65,Young Guns (1988),0,0
 822,Rosencrantz and Guildenstern Are Dead (1990),1,1
@@ -175,59 +175,59 @@ movieId,title,Drama,prediction
 1620,Etz Hadomim Tafus (Under the Domin Tree) (1994),1,0
 259,"Family Thing, A (1996)",1,1
 149,Kazaam (1996),0,0
-1469,Boys (1996),1,0
-104,"Devil's Advocate, The (1997)",0,1
+1469,Boys (1996),1,1
+104,"Devil's Advocate, The (1997)",0,0
 32,"Right Stuff, The (1983)",1,1
-511,"Rainmaker, The (1997)",1,0
+511,"Rainmaker, The (1997)",1,1
 1251,Jingle All the Way (1996),0,0
 239,"Shawshank Redemption, The (1994)",1,1
 1228,"Getaway, The (1994)",0,0
-1677,Mamma Roma (1962),1,0
+1677,Mamma Roma (1962),1,1
 1303,"Pagemaster, The (1994)",0,0
 563,Gridlock'd (1997),0,0
 800,"Rich Man's Wife, The (1996)",0,0
-982,"Treasure of the Sierra Madre, The (1948)",0,1
+982,"Treasure of the Sierra Madre, The (1948)",0,0
 588,Georgia (1995),1,0
-479,Heathers (1989),0,1
-584,Charade (1963),0,1
+479,Heathers (1989),0,0
+584,Charade (1963),0,0
 61,"Nightmare on Elm Street, A (1984)",0,0
 27,Casper (1995),0,0
 487,Marvin's Room (1996),1,1
-537,"Adventures of Robin Hood, The (1938)",0,1
-1665,Shadow of Angels (Schatten der Engel) (1976),1,0
+537,"Adventures of Robin Hood, The (1938)",0,0
+1665,Shadow of Angels (Schatten der Engel) (1976),1,1
 866,My Favorite Year (1982),0,1
 1042,Blues Brothers 2000 (1998),0,0
 711,Poison Ivy II (1995),1,0
 1386,National Lampoon's Senior Trip (1995),0,0
 551,Escape to Witch Mountain (1975),0,0
-1568,Hollow Reed (1996),1,0
-579,Bastard Out of Carolina (1996),1,0
+1568,Hollow Reed (1996),1,1
+579,Bastard Out of Carolina (1996),1,1
 1618,Temptress Moon (Feng Yue) (1996),0,0
-816,Winnie the Pooh and the Blustery Day (1968),0,1
+816,Winnie the Pooh and the Blustery Day (1968),0,0
 18,Just Cause (1995),0,0
 576,Son in Law (1993),0,0
 1680,"Silence of the Palace, The (Saimt el Qusur) (1994)",1,0
 1460,To Be or Not to Be (1942),1,0
-782,Manny & Lo (1996),1,0
-1535,All Things Fair (1996),1,0
+782,Manny & Lo (1996),1,1
+1535,All Things Fair (1996),1,1
 1019,Nine Months (1995),0,0
 1533,Naked in New York (1994),0,0
-518,William Shakespeare's Romeo and Juliet (1996),1,0
+518,William Shakespeare's Romeo and Juliet (1996),1,1
 370,Thinner (1996),0,0
-1034,White Squall (1996),1,0
+1034,White Squall (1996),1,1
 670,Don Juan DeMarco (1995),1,1
 1623,It Takes Two (1995),0,0
 127,Blue Sky (1994),1,1
 824,Washington Square (1997),1,1
 1442,Double Happiness (1994),1,1
-348,Bed of Roses (1996),1,0
+348,Bed of Roses (1996),1,1
 1310,Late Bloomers (1996),0,1
 1584,The Courtyard (1995),0,0
 440,Sophie's Choice (1982),1,1
 1309,Dear God (1996),0,0
-77,Jerry Maguire (1996),1,0
+77,Jerry Maguire (1996),1,1
 771,Screamers (1995),0,0
-1539,Nina Takes a Lover (1994),0,1
+1539,Nina Takes a Lover (1994),0,0
 1601,Butterfly Kiss (1995),0,0
 439,Amityville: A New Generation (1993),0,0
 674,Big Bully (1996),1,0
@@ -238,24 +238,24 @@ movieId,title,Drama,prediction
 1271,Kaspar Hauser (1993),1,1
 574,Three Colors: Red (1994),1,1
 99,It's a Wonderful Life (1946),1,1
-1558,American Buffalo (1996),1,0
+1558,American Buffalo (1996),1,1
 714,Beyond Rangoon (1995),1,0
 641,Half Baked (1998),0,0
-1625,"Low Life, The (1994)",1,0
+1625,"Low Life, The (1994)",1,1
 717,Ace Ventura: When Nature Calls (1995),0,0
 745,Addicted to Love (1997),0,0
 609,Sphere (1998),0,0
 985,Home Alone 3 (1997),0,0
-1025,Lover's Knot (1996),0,1
-1501,Witness (1985),1,1
+1025,Lover's Knot (1996),0,0
+1501,Witness (1985),1,0
 1551,B*A*P*S (1997),0,0
 966,"Beverly Hillbillies, The (1993)",0,0
 427,Donnie Brasco (1997),1,1
 1079,Spellbound (1945),0,0
-1440,Country Life (1994),1,0
+1440,Country Life (1994),1,1
 878,Hellraiser: Bloodline (1996),0,0
 1362,"Story of Xinghua, The (1993)",1,1
-1219,Hard Eight (1996),0,1
+1219,Hard Eight (1996),0,0
 805,Wild Bill (1995),0,0
 29,Jaws (1975),0,0
 825,Zeus and Roxanne (1997),0,0
@@ -267,13 +267,13 @@ movieId,title,Drama,prediction
 231,Jurassic Park (1993),0,0
 1657,Pharaoh's Army (1995),0,0
 397,Great Expectations (1998),1,1
-1295,Tom and Huck (1995),0,0
+1295,Tom and Huck (1995),0,1
 445,Michael (1996),0,0
 377,Muriel's Wedding (1994),0,1
 1190,Flipper (1996),0,0
 1030,I Like It Like That (1994),1,1
 1027,Keys to Tulsa (1997),0,0
-1578,Guantanamera (1994),0,1
+1578,Guantanamera (1994),0,0
 1267,Vampire in Brooklyn (1995),0,0
 1495,Angela (1995),1,0
 422,Mr. Magoo (1997),0,0
@@ -285,38 +285,38 @@ movieId,title,Drama,prediction
 973,Rob Roy (1995),1,1
 364,Ransom (1996),1,0
 168,Jaws 2 (1978),0,0
-1429,Ed (1996),0,0
-1256,True Crime (1995),0,0
-1519,Night Flier (1997),0,1
-485,Roman Holiday (1953),0,1
-436,High Noon (1952),0,1
-1612,MURDER and murder (1996),1,0
-1376,Killer (Bulletproof Heart) (1994),0,1
+1429,Ed (1996),0,1
+1256,True Crime (1995),0,1
+1519,Night Flier (1997),0,0
+485,Roman Holiday (1953),0,0
+436,High Noon (1952),0,0
+1612,MURDER and murder (1996),1,1
+1376,Killer (Bulletproof Heart) (1994),0,0
 437,Alien 3 (1992),0,0
 718,"Walk in the Clouds, A (1995)",1,1
 1557,Quartier Mozart (1992),0,0
 1556,"Reluctant Debutante, The (1958)",1,0
-919,Swiss Family Robinson (1960),0,0
+919,Swiss Family Robinson (1960),0,1
 1588,"Gate of Heavenly Peace, The (1995)",0,1
-1450,"Show, The (1995)",0,1
-1318,"Turning, The (1992)",1,0
-769,Last Man Standing (1996),1,0
+1450,"Show, The (1995)",0,0
+1318,"Turning, The (1992)",1,1
+769,Last Man Standing (1996),1,1
 876,Freeway (1996),0,0
-610,How to Make an American Quilt (1995),1,0
+610,How to Make an American Quilt (1995),1,1
 98,Conspiracy Theory (1997),0,0
 177,My Best Friend's Wedding (1997),0,0
 1615,Twilight (1998),1,0
 823,Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996),0,0
 531,Dragonheart (1996),0,0
 144,Dante's Peak (1997),0,0
-1179,When a Man Loves a Woman (1994),1,0
-421,Mary Shelley's Frankenstein (1994),1,0
-1454,Nelly & Monsieur Arnaud (1995),1,1
+1179,When a Man Loves a Woman (1994),1,1
+421,Mary Shelley's Frankenstein (1994),1,1
+1454,Nelly & Monsieur Arnaud (1995),1,0
 558,"Believers, The (1987)",0,0
 1067,"Associate, The (1996)",0,0
 430,Bushwhacked (1995),0,0
 185,12 Angry Men (1957),1,1
-91,"African Queen, The (1951)",0,1
+91,"African Queen, The (1951)",0,0
 481,Denise Calls Up (1995),0,0
 508,Raise the Red Lantern (1991),1,1
 547,Searching for Bobby Fischer (1993),1,1
@@ -325,154 +325,154 @@ movieId,title,Drama,prediction
 1448,"Magic Hour, The (1998)",1,0
 80,Dangerous Minds (1995),1,0
 1628,Mirage (1995),0,0
-789,Mother Night (1996),1,0
+789,Mother Night (1996),1,1
 930,Kull the Conqueror (1997),0,0
 60,Scream (1996),0,0
-1661,"Brother's Kiss, A (1997)",1,0
+1661,"Brother's Kiss, A (1997)",1,1
 997,"Assignment, The (1997)",0,0
-399,"Professional, The (1994)",1,0
-637,Palookaville (1996),1,0
+399,"Professional, The (1994)",1,1
+637,Palookaville (1996),1,1
 790,Foxfire (1996),1,1
-1463,"To Have, or Not (1995)",1,0
+1463,"To Have, or Not (1995)",1,1
 162,Assassins (1995),0,0
 1420,"Leopard Son, The (1996)",0,0
 754,"Killing Fields, The (1984)",1,1
 922,Primary Colors (1998),1,1
 12,Star Trek: First Contact (1996),0,0
-612,Wallace & Gromit: The Best of Aardman Animation (1996),0,1
+612,Wallace & Gromit: The Best of Aardman Animation (1996),0,0
 1255,Pather Panchali (1955),1,1
 279,Stag (1997),0,0
 1142,"Boys of St. Vincent, The (1993)",1,1
 667,Boys on the Side (1995),1,1
-288,Brazil (1985),0,1
+288,Brazil (1985),0,0
 201,Speed (1994),0,0
 1292,Palmetto (1998),0,0
 1069,Antonia's Line (1995),1,1
 634,Children of the Corn: The Gathering (1996),0,0
 1186,Pie in the Sky (1995),0,0
 289,"English Patient, The (1996)",1,1
-624,Somebody to Love (1994),1,0
+624,Somebody to Love (1994),1,1
 635,"Day the Earth Stood Still, The (1951)",1,1
 1306,North (1994),0,0
-1060,"Month by the Lake, A (1995)",1,1
-38,Crumb (1994),0,1
+1060,"Month by the Lake, A (1995)",1,0
+38,Crumb (1994),0,0
 391,Kull the Conqueror (1997),0,0
 192,Renaissance Man (1994),1,0
 244,Field of Dreams (1989),1,1
-1561,"Leading Man, The (1996)",0,1
+1561,"Leading Man, The (1996)",0,0
 43,Cop Land (1997),1,0
 564,Eye for an Eye (1996),1,0
 1441,Century (1993),1,1
 1626,"Mostro, Il (1994)",0,0
 1116,"Man Who Knew Too Little, The (1997)",0,0
 577,"Ghost and the Darkness, The (1996)",0,0
-810,Incognito (1997),0,1
+810,Incognito (1997),0,0
 984,Robert A. Heinlein's The Puppet Masters (1994),0,0
 447,I.Q. (1994),0,0
 735,Short Cuts (1993),1,1
-351,Reservoir Dogs (1992),0,1
+351,Reservoir Dogs (1992),0,0
 1123,I Shot Andy Warhol (1996),1,1
 847,Man of the House (1995),0,0
 1070,Virtuosity (1995),0,0
 1273,Ill Gotten Gains (1997),1,0
-232,Dumbo (1941),0,1
+232,Dumbo (1941),0,0
 571,Apocalypse Now (1979),1,1
 1112,Milk Money (1994),0,0
-1093,Talking About Sex (1994),1,0
+1093,Talking About Sex (1994),1,1
 1007,"Fog, The (1980)",0,0
 767,My Life as a Dog (Mitt liv som hund) (1985),1,1
-184,Wag the Dog (1997),1,0
+184,Wag the Dog (1997),1,1
 1246,Love & Human Remains (1993),0,1
 1603,Men With Guns (1997),1,1
 1296,Fall (1997),0,1
 1205,"Grass Harp, The (1995)",1,1
-308,"Corrina, Corrina (1994)",1,0
+308,"Corrina, Corrina (1994)",1,1
 132,Roommates (1995),1,1
-770,Smilla's Sense of Snow (1997),1,0
-1627,Kika (1993),1,0
+770,Smilla's Sense of Snow (1997),1,1
+1627,Kika (1993),1,1
 719,Titanic (1997),1,1
 314,"American Werewolf in London, An (1981)",0,0
 1636,Two Friends (1986) ,1,1
-1026,"Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)",0,1
+1026,"Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)",0,0
 691,Deceiver (1997),0,0
 354,Highlander (1986),0,0
 374,"Bridges of Madison County, The (1995)",1,1
 883,Wes Craven's New Nightmare (1994),0,0
 449,Enchanted April (1991),1,1
 356,GoodFellas (1990),1,1
-1242,"Very Natural Thing, A (1974)",1,0
-1511,Hostile Intentions (1994),1,0
+1242,"Very Natural Thing, A (1974)",1,1
+1511,Hostile Intentions (1994),1,1
 545,Amityville: Dollhouse (1996),0,0
 1642,"Scarlet Letter, The (1926)",1,1
 969,Ulee's Gold (1997),1,1
 270,It's My Party (1995),1,1
 299,Like Water For Chocolate (Como agua para chocolate) (1992),1,1
 1124,"Newton Boys, The (1998)",1,0
-1439,Mondo (1996),1,0
-283,Miracle on 34th Street (1994),1,1
+1439,Mondo (1996),1,1
+283,Miracle on 34th Street (1994),1,0
 281,Twelfth Night (1996),1,1
 189,"Godfather, The (1972)",1,1
 1208,Vermin (1998),0,0
-957,Fresh (1994),1,1
-783,"Client, The (1994)",1,0
+957,Fresh (1994),1,0
+783,"Client, The (1994)",1,1
 1085,American Strays (1996),0,0
 347,Indiana Jones and the Last Crusade (1989),0,0
-218,"20,000 Leagues Under the Sea (1954)",0,1
+218,"20,000 Leagues Under the Sea (1954)",0,0
 826,Jade (1995),0,0
 798,Cemetery Man (Dellamorte Dellamore) (1994),0,0
 1550,"Beans of Egypt, Maine, The (1994)",1,1
-626,Captives (1994),1,0
+626,Captives (1994),1,1
 1496,Desert Winds (1995),1,1
 1573,Nico Icon (1995),0,0
 1611,"Symphonie pastorale, La (1946)",1,0
 1522,Children of the Revolution (1996),0,0
-565,Extreme Measures (1996),1,0
+565,Extreme Measures (1996),1,1
 229,Seven (Se7en) (1995),0,0
-1144,"Awfully Big Adventure, An (1995)",1,0
+1144,"Awfully Big Adventure, An (1995)",1,1
 600,Emma (1996),1,1
 420,Rosewood (1997),1,1
 830,Judgment Night (1993),0,0
 964,"Davy Crockett, King of the Wild Frontier (1955)",0,1
-1316,Kansas City (1996),0,0
+1316,Kansas City (1996),0,1
 497,Lost Highway (1997),0,0
 875,"Shaggy Dog, The (1959)",0,0
-756,Mr. Jones (1993),1,0
+756,Mr. Jones (1993),1,1
 1408,Trial by Jury (1994),0,0
 1220,Ayn Rand: A Sense of Life (1997),0,1
 744,Oscar & Lucinda (1997),1,1
-1299,Lotto Land (1995),1,0
-853,Something to Talk About (1995),1,0
+1299,Lotto Land (1995),1,1
+853,Something to Talk About (1995),1,1
 895,Basic Instinct (1992),0,0
 1114,Othello (1995),1,1
 599,Manhattan (1979),1,1
 1305,"Mighty, The (1998)",1,0
-1212,"Big Squeeze, The (1996)",1,0
+1212,"Big Squeeze, The (1996)",1,1
 53,Dead Poets Society (1989),1,1
-1248,Roseanna's Grave (For Roseanna) (1997),0,1
-852,Victor/Victoria (1982),0,1
+1248,Roseanna's Grave (For Roseanna) (1997),0,0
+852,Victor/Victoria (1982),0,0
 656,"Nutty Professor, The (1996)",0,0
 320,Dances with Wolves (1990),1,1
 257,Circle of Friends (1995),1,1
 1277,"War, The (1994)",1,1
 740,Platoon (1986),1,1
-877,Alice in Wonderland (1951),0,1
+877,Alice in Wonderland (1951),0,0
 1409,Full Speed (1996),1,0
-186,"Philadelphia Story, The (1940)",0,1
+186,"Philadelphia Story, The (1940)",0,0
 159,Jumanji (1995),0,0
 616,Unstrung Heroes (1995),1,1
 1542,Boys Life (1995),1,1
-1631,Sweet Nothing (1995),1,0
+1631,Sweet Nothing (1995),1,1
 394,"Omen, The (1976)",0,0
 396,With Honors (1994),1,0
-492,"Clockwork Orange, A (1971)",0,1
+492,"Clockwork Orange, A (1971)",0,0
 978,Last Action Hero (1993),0,0
 998,Fatal Instinct (1993),0,0
-304,Foreign Correspondent (1940),0,0
-785,Crooklyn (1994),0,1
+304,Foreign Correspondent (1940),0,1
+785,Crooklyn (1994),0,0
 1170,Tetsuo II: Body Hammer (1992),0,0
 629,Glory (1989),1,1
 1428,"World of Apu, The (Apur Sansar) (1959)",1,1
-362,Tin Men (1987),1,1
+362,Tin Men (1987),1,0
 827,"Perez Family, The (1995)",0,0
 56,"Sound of Music, The (1965)",0,0
 1102,Set It Off (1996),0,0
@@ -481,8 +481,8 @@ movieId,title,Drama,prediction
 1164,"Howling, The (1981)",0,0
 412,Andre (1994),0,0
 583,Night of the Living Dead (1968),0,0
-446,Breakdown (1997),0,1
-692,Bride of Frankenstein (1935),0,1
+446,Breakdown (1997),0,0
+692,Bride of Frankenstein (1935),0,0
 1582,Shopping (1994),0,0
 217,Blade Runner (1982),0,0
 734,Clerks (1994),0,0
@@ -491,34 +491,34 @@ movieId,title,Drama,prediction
 548,Exit to Eden (1994),0,0
 302,That Thing You Do! (1996),0,0
 1367,Frisk (1995),1,0
-1353,"Secret Adventures of Tom Thumb, The (1993)",0,0
+1353,"Secret Adventures of Tom Thumb, The (1993)",0,1
 736,Career Girls (1997),1,1
 71,Jean de Florette (1986),1,1
 298,Absolute Power (1997),0,0
-1435,Schizopolis (1996),0,1
-580,Sirens (1994),1,0
+1435,Schizopolis (1996),0,0
+580,Sirens (1994),1,1
 1166,Hard Rain (1998),0,0
 495,Blown Away (1994),0,0
 836,"Stupids, The (1996)",0,0
-1298,T-Men (1947),0,0
+1298,T-Men (1947),0,1
 1056,Night on Earth (1991),1,1
-1664,Hedd Wyn (1992),1,0
+1664,Hedd Wyn (1992),1,1
 1052,Feast of July (1995),1,1
-1411,Across the Sea of Time (1995),0,0
+1411,Across the Sea of Time (1995),0,1
 1294,"Cry, the Beloved Country (1995)",1,1
 414,Houseguest (1994),0,0
 213,U Turn (1997),0,0
 1378,"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les) (1964)",1,1
 1653,Intimate Relations (1996),0,0
-286,"Scout, The (1994)",1,0
+286,"Scout, The (1994)",1,1
 1024,"Affair to Remember, An (1957)",0,0
-1452,Bliss (1997),1,0
+1452,Bliss (1997),1,1
 1393,Yankee Zulu (1994),1,0
 1503,Nemesis 2: Nebula (1995),0,0
-891,Desperate Measures (1998),1,0
+891,Desperate Measures (1998),1,1
 833,Boomerang (1992),0,0
 568,Everyone Says I Love You (1996),0,0
-854,Jack and Sarah (1995),0,0
+854,Jack and Sarah (1995),0,1
 1065,"War Room, The (1993)",0,0
 1667,You So Crazy (1994),0,0
 367,Monty Python and the Holy Grail (1974),0,0
@@ -526,18 +526,18 @@ movieId,title,Drama,prediction
 161,"Empire Strikes Back, The (1980)",1,0
 818,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",1,1
 1002,Air Bud (1997),0,0
-1587,"Shooter, The (1995)",0,0
+1587,"Shooter, The (1995)",0,1
 1387,Picture Bride (1995),1,0
-160,Cape Fear (1962),0,0
+160,Cape Fear (1962),0,1
 339,George of the Jungle (1997),0,0
 720,Friday (1995),0,0
 831,"Love Bug, The (1969)",0,0
 368,Die Hard: With a Vengeance (1995),0,0
-1115,"Old Man and the Sea, The (1958)",1,1
-533,Shall We Dance? (1937),0,1
+1115,"Old Man and the Sea, The (1958)",1,0
+533,Shall We Dance? (1937),0,0
 336,Multiplicity (1996),0,0
 1543,"Enfer, L' (1994)",1,1
-142,Interview with the Vampire (1994),1,0
+142,Interview with the Vampire (1994),1,1
 122,Homeward Bound: The Incredible Journey (1993),0,0
 429,"Thieves (Voleurs, Les) (1996)",1,1
 921,Kama Sutra: A Tale of Love (1996),0,0
@@ -545,10 +545,10 @@ movieId,title,Drama,prediction
 889,Junior (1994),0,0
 267,Kingpin (1996),0,0
 860,G.I. Jane (1997),1,0
-1326,"Damsel in Distress, A (1937)",0,1
+1326,"Damsel in Distress, A (1937)",0,0
 652,Air Force One (1997),0,0
 865,I Love Trouble (1994),0,0
-748,Murder in the First (1995),1,0
+748,Murder in the First (1995),1,1
 1630,Á köldum klaka (Cold Fever) (1994),1,1
 1481,Aparajito (1956),1,1
 323,To Die For (1995),1,0
@@ -557,25 +557,25 @@ movieId,title,Drama,prediction
 986,Boxing Helena (1993),0,0
 137,Bonnie and Clyde (1967),1,1
 884,All About Eve (1950),1,1
-962,"Stars Fell on Henrietta, The (1995)",1,1
+962,"Stars Fell on Henrietta, The (1995)",1,0
 1608,Angel Baby (1995),1,0
 47,Get Shorty (1995),1,1
-1175,"Funeral, The (1996)",1,0
-227,Rudy (1993),1,0
+1175,"Funeral, The (1996)",1,1
+227,Rudy (1993),1,1
 51,Murder at 1600 (1997),0,0
 1059,Shanghai Triad (Yao a yao yao dao waipo qiao) (1995),1,1
 623,Sling Blade (1996),1,1
-933,"NeverEnding Story III, The (1994)",0,1
-519,"Thousand Acres, A (1997)",1,0
+933,"NeverEnding Story III, The (1994)",0,0
+519,"Thousand Acres, A (1997)",1,1
 13,"To Wong Foo, Thanks for Everything! Julie Newmar (1995)",0,0
 524,"Misérables, Les (1995)",1,1
 668,Jungle2Jungle (1997),0,0
 148,Big Night (1996),1,1
 1546,Bhaji on the Beach (1993),1,1
-1662,August (1996),1,0
+1662,August (1996),1,1
 207,Real Genius (1985),0,1
 1210,Mr. Wrong (1996),0,0
-1638,"Niagara, Niagara (1997)",1,0
+1638,"Niagara, Niagara (1997)",1,1
 1334,Before the Rain (Pred dozhdot) (1994),1,1
 703,What's Love Got to Do with It (1993),1,1
 1347,Far From Home: The Adventures of Yellow Dog (1995),0,0
@@ -588,39 +588,39 @@ movieId,title,Drama,prediction
 2,Heavyweights (1994),0,0
 152,Ghost in the Shell (Kokaku kidotai) (1995),0,0
 325,Apt Pupil (1998),1,1
-154,"Birds, The (1963)",0,1
+154,"Birds, The (1963)",0,0
 489,"Flower of My Secret, The (Flor de mi secreto, La) (1995)",1,1
 819,Paradise Lost: The Child Murders at Robin Hood Hills (1996),0,0
-596,Last Dance (1996),1,0
-1335,Tigrero: A Film That Was Never Made (1994),1,0
+596,Last Dance (1996),1,1
+1335,Tigrero: A Film That Was Never Made (1994),1,1
 1369,Nothing to Lose (1994),1,0
 1382,New Jersey Drive (1995),1,0
-284,Bob Roberts (1992),0,1
+284,Bob Roberts (1992),0,0
 197,Waterworld (1995),0,0
 228,"Fan, The (1996)",0,0
-1565,"Big One, The (1997)",0,1
+1565,"Big One, The (1997)",0,0
 849,Black Sheep (1996),0,0
 659,Poetic Justice (1993),1,0
 569,Some Folks Call It a Sling Blade (1993),1,1
 1374,"Sexual Life of the Belgians, The (1994)",0,1
-1014,Spanking the Monkey (1994),1,0
+1014,Spanking the Monkey (1994),1,1
 182,Star Trek: The Wrath of Khan (1982),0,0
-1410,Crossfire (1947),0,1
+1410,Crossfire (1947),0,0
 1449,Stranger in the House (1997),0,0
-956,Surviving Picasso (1996),1,0
+956,Surviving Picasso (1996),1,1
 772,Until the End of the World (Bis ans Ende der Welt) (1991),1,1
 834,Ace Ventura: Pet Detective (1994),0,0
 972,Radioland Murders (1994),0,0
 632,"Englishman Who Went Up a Hill, But Came Down a Mountain, The (1995)",0,0
 86,"Birdcage, The (1996)",0,0
 262,"Unbearable Lightness of Being, The (1988)",1,1
-1470,Terror in a Texas Town (1958),0,0
+1470,Terror in a Texas Town (1958),0,1
 1402,Twisted (1996),1,1
 1138,My Own Private Idaho (1991),1,1
-1497,Last Summer in the Hamptons (1995),1,0
+1497,Last Summer in the Hamptons (1995),1,1
 904,Eddie (1996),0,0
 9,"Remains of the Day, The (1993)",1,1
-1443,Sprung (1997),0,0
+1443,Sprung (1997),0,1
 141,Heat (1995),0,0
 1224,Double Team (1997),0,0
 1153,Catwalk (1995),0,0
@@ -628,8 +628,8 @@ movieId,title,Drama,prediction
 1599,Wings of Courage (1995),0,0
 315,"Crying Game, The (1992)",1,1
 1355,Angel and the Badman (1947),0,0
-1524,"Vie est belle, La (Life is Rosey) (1987)",1,0
-1342,Daens (1992),1,0
+1524,"Vie est belle, La (Life is Rosey) (1987)",1,1
+1342,Daens (1992),1,1
 475,Rebel Without a Cause (1955),1,1
 17,Sabrina (1995),0,0
 1473,"Winter Guest, The (1997)",1,1
@@ -637,16 +637,16 @@ movieId,title,Drama,prediction
 651,Sudden Death (1995),0,0
 1532,The Deadly Cure (1996),0,1
 212,Angels in the Outfield (1994),0,0
-233,Four Rooms (1995),0,0
+233,Four Rooms (1995),0,1
 209,Twelve Monkeys (1995),1,0
 681,Midnight in the Garden of Good and Evil (1997),1,1
-1422,Best Men (1997),1,0
+1422,Best Men (1997),1,1
 464,Space Jam (1996),0,0
 1514,Blood For Dracula (Andy Warhol's Dracula) (1974),0,1
 358,Powder (1995),1,0
 1600,"Substance of Fire, The (1996)",1,1
 166,When Harry Met Sally... (1989),0,1
-1598,"Walking Dead, The (1995)",1,0
+1598,"Walking Dead, The (1995)",1,1
 471,Apollo 13 (1995),1,1
 787,Amos & Andrew (1993),0,0
 62,Ben-Hur (1959),1,0
@@ -655,13 +655,13 @@ movieId,title,Drama,prediction
 1127,"Tin Drum, The (Blechtrommel, Die) (1979)",1,0
 1110,Airheads (1994),0,0
 163,Canadian Bacon (1994),0,0
-438,"American President, The (1995)",1,0
+438,"American President, The (1995)",1,1
 1536,"Neon Bible, The (1995)",1,0
 84,"Sword in the Stone, The (1963)",0,0
 389,Babe (1995),1,1
 10,Men in Black (1997),0,0
 1336,Jimmy Hollywood (1994),0,0
-64,"Brothers McMullen, The (1995)",0,1
+64,"Brothers McMullen, The (1995)",0,0
 713,"House of Yes, The (1997)",1,1
 602,Body Snatchers (1993),0,0
 170,Hoop Dreams (1994),0,1
@@ -670,7 +670,7 @@ movieId,title,Drama,prediction
 353,Fallen (1998),0,0
 216,Pulp Fiction (1994),1,1
 1274,"Other Voices, Other Rooms (1997)",1,1
-195,Pink Floyd - The Wall (1982),1,0
+195,Pink Floyd - The Wall (1982),1,1
 403,Independence Day (ID4) (1996),0,0
 1329,An Unforgettable Summer (1994),1,1
 1281,Lost in Space (1998),0,0
@@ -678,11 +678,11 @@ movieId,title,Drama,prediction
 556,Maverick (1994),0,0
 222,"Celluloid Closet, The (1995)",0,0
 1570,"Truth or Consequences, N.M. (1997)",0,0
-1681,Dadetown (1995),0,1
+1681,Dadetown (1995),0,0
 1389,"Cement Garden, The (1993)",1,1
 1211,Exotica (1994),1,1
-1455,"Cure, The (1995)",1,0
-581,"Great Dictator, The (1940)",0,1
+1455,"Cure, The (1995)",1,1
+581,"Great Dictator, The (1940)",0,0
 504,Under Siege (1992),0,0
 899,"Beautician and the Beast, The (1997)",0,0
 1560,Nénette et Boni (1996),1,1
@@ -691,47 +691,47 @@ movieId,title,Drama,prediction
 1325,Traveller (1997),1,1
 35,Curdled (1996),0,0
 1158,Life with Mikey (1993),0,0
-319,It Happened One Night (1934),0,1
-138,Red Rock West (1992),0,1
-1431,"Man from Down Under, The (1943)",1,0
+319,It Happened One Night (1934),0,0
+138,Red Rock West (1992),0,0
+1431,"Man from Down Under, The (1943)",1,1
 109,Swimming with Sharks (1995),1,1
-1461,Grace of My Heart (1996),1,0
+1461,Grace of My Heart (1996),1,1
 1087,Farmer & Chase (1995),0,0
 639,Phat Beach (1996),0,0
 169,Three Colors: White (1994),1,1
 1264,"Star Maker, The (Uomo delle stelle, L') (1995)",1,1
 534,Welcome to the Dollhouse (1995),1,1
 1266,Audrey Rose (1977),0,0
-570,She's So Lovely (1997),1,0
+570,She's So Lovely (1997),1,1
 1438,Suture (1993),0,0
 112,"Terminator, The (1984)",0,0
 151,"River Wild, The (1994)",0,0
 490,City Hall (1996),1,0
-171,Wonderland (1997),0,0
-230,"Great Escape, The (1963)",0,1
+171,Wonderland (1997),0,1
+230,"Great Escape, The (1963)",0,0
 1526,Gordy (1995),0,0
-1414,Cosi (1996),0,1
-708,"Murder, My Sweet (1944)",0,1
+1414,Cosi (1996),0,0
+708,"Murder, My Sweet (1944)",0,0
 256,Alien (1979),0,0
 1341,Shooting Fish (1997),0,0
 1252,"Fille seule, La (A Single Girl) (1995)",1,1
 83,"Truth About Cats & Dogs, The (1996)",0,0
 1432,Lassie (1994),0,0
 155,Cool Runnings (1993),0,0
-615,Disclosure (1994),1,0
+615,Disclosure (1994),1,1
 590,Benny & Joon (1993),0,0
-387,"Spitfire Grill, The (1996)",1,0
+387,"Spitfire Grill, The (1996)",1,1
 725,Patton (1970),1,1
 196,Grumpier Old Men (1995),0,0
 527,Natural Born Killers (1994),0,0
 1654,Wedding Bell Blues (1996),0,0
 25,Broken Arrow (1996),0,0
-191,Forrest Gump (1994),0,0
+191,Forrest Gump (1994),0,1
 761,"Horse Whisperer, The (1998)",1,0
 242,"People vs. Larry Flynt, The (1996)",1,1
 1458,New York Cop (1996),0,0
-925,187 (1997),1,0
-386,Killing Zoe (1994),0,0
+925,187 (1997),1,1
+386,Killing Zoe (1994),0,1
 373,Army of Darkness (1993),0,0
 598,D3: The Mighty Ducks (1996),0,0
 395,Kundun (1997),1,1
@@ -746,13 +746,13 @@ movieId,title,Drama,prediction
 920,"Apartment, The (1960)",1,1
 638,Manon of the Spring (Manon des sources) (1986),1,1
 382,Austin Powers: International Man of Mystery (1997),0,0
-671,FairyTale: A True Story (1997),1,0
-513,Carrie (1976),0,1
+671,FairyTale: A True Story (1997),1,1
+513,Carrie (1976),0,0
 846,First Kid (1996),0,0
 892,April Fool's Day (1986),0,0
 620,How to Be a Player (1997),0,0
 167,Joe's Apartment (1996),0,0
-1125,"Perfect Candidate, A (1996)",0,1
+1125,"Perfect Candidate, A (1996)",0,0
 31,"Silence of the Lambs, The (1991)",1,1
 272,"Indian in the Cupboard, The (1995)",0,0
 1675,Getting Away With Murder (1996),0,0
@@ -761,47 +761,47 @@ movieId,title,Drama,prediction
 1574,S.F.W. (1994),1,0
 1128,Aladdin and the King of Thieves (1996),0,0
 776,All Dogs Go to Heaven 2 (1996),0,0
-622,Butch Cassidy and the Sundance Kid (1969),0,1
-1324,Brother Minister: The Assassination of Malcolm X (1994),0,1
+622,Butch Cassidy and the Sundance Kid (1969),0,0
+1324,Brother Minister: The Assassination of Malcolm X (1994),0,0
 1406,"Bewegte Mann, Der (1994)",0,0
-1129,Nil By Mouth (1997),1,0
+1129,Nil By Mouth (1997),1,1
 483,Basquiat (1996),1,1
 76,Star Trek III: The Search for Spock (1984),0,0
-1523,"Object of My Affection, The (1998)",0,1
-63,"City of Lost Children, The (1995)",0,1
+1523,"Object of My Affection, The (1998)",0,0
+63,"City of Lost Children, The (1995)",0,0
 243,Ulee's Gold (1997),1,1
 74,That Darn Cat! (1965),0,0
 1569,Tough and Deadly (1995),1,0
-1652,JLG/JLG - autoportrait de décembre (1994),1,0
+1652,JLG/JLG - autoportrait de décembre (1994),1,1
 1036,"Arrival, The (1996)",0,0
 614,Happy Gilmore (1996),0,0
 1048,Made in America (1993),0,0
 1037,Black Beauty (1994),0,0
-1196,Citizen Ruth (1996),1,0
+1196,Citizen Ruth (1996),1,1
 1204,"Innocent Sleep, The (1995)",0,1
 139,Chasing Amy (1997),1,1
 380,"Mrs. Brown (Her Majesty, Mrs. Brown) (1997)",1,1
 1260,Marked for Death (1990),1,0
 1091,Turbulence (1997),0,0
 23,Twister (1996),0,0
-1332,Venice/Venice (1992),1,0
+1332,Venice/Venice (1992),1,1
 655,Cat People (1982),0,0
 305,"Fifth Element, The (1997)",0,0
 1239,Faust (1994),0,1
-1072,Top Hat (1935),0,1
+1072,Top Hat (1935),0,0
 549,"Mask, The (1994)",0,0
 26,Aladdin (1992),0,0
-958,Walking and Talking (1996),0,0
+958,Walking and Talking (1996),0,1
 775,"Doom Generation, The (1995)",1,0
 1223,In the Mouth of Madness (1995),0,0
 773,Under Siege 2: Dark Territory (1995),0,0
 994,"Specialist, The (1994)",0,0
 458,Star Trek: The Motion Picture (1979),0,0
 1491,Burnt Offerings (1976),0,0
-732,Kids (1995),1,0
+732,Kids (1995),1,1
 416,"Juror, The (1996)",1,0
 992,Amateur (1994),1,1
-686,Selena (1997),1,0
+686,Selena (1997),1,1
 24,Toy Story (1995),0,0
 1154,Rhyme & Reason (1997),0,1
 1372,Cyclo (1995),1,1
@@ -809,94 +809,94 @@ movieId,title,Drama,prediction
 591,"Ref, The (1994)",0,0
 215,"Lawnmower Man, The (1992)",0,0
 693,Much Ado About Nothing (1993),0,1
-1076,Nixon (1995),1,0
+1076,Nixon (1995),1,1
 1159,Speed 2: Cruise Control (1997),0,0
 1475,Fire on the Mountain (1996),0,0
 1465,Hugo Pool (1997),0,0
-1647,Marlene Dietrich: Shadow and Light (1996) ,0,1
+1647,Marlene Dietrich: Shadow and Light (1996) ,0,0
 1173,Amityville 1992: It's About Time (1992),0,0
 757,Johnny Mnemonic (1995),0,0
 461,Touch (1997),0,0
-1107,Paris Is Burning (1990),0,1
+1107,Paris Is Burning (1990),0,0
 780,"Garden of Finzi-Contini, The (Giardino dei Finzi-Contini, Il) (1970)",1,1
 1340,I Don't Want to Talk About It (De eso no se habla) (1993),1,1
 516,"Substitute, The (1996)",0,0
 1674,"Butcher Boy, The (1998)",1,0
-605,My Life and Times With Antonin Artaud (En compagnie d'Antonin Artaud) (1993),1,0
-1140,Squeeze (1996),1,0
+605,My Life and Times With Antonin Artaud (En compagnie d'Antonin Artaud) (1993),1,1
+1140,Squeeze (1996),1,1
 136,Mission: Impossible (1996),0,0
 1344,Beat the Devil (1954),1,1
 774,High School High (1996),0,0
-1419,"Last Klezmer: Leopold Kozlowski, His Life and Music, The (1995)",0,1
+1419,"Last Klezmer: Leopold Kozlowski, His Life and Music, The (1995)",0,0
 555,Sgt. Bilko (1996),0,0
-949,Gigi (1958),0,1
+949,Gigi (1958),0,0
 1405,Switchback (1997),0,0
 752,Grease 2 (1982),0,0
 890,"Jackal, The (1997)",0,0
 1358,Nightwatch (1997),0,0
 872,Daylight (1996),0,0
-1328,Wild America (1997),0,1
+1328,Wild America (1997),0,0
 696,"Thin Line Between Love and Hate, A (1996)",0,0
 820,"Santa Clause, The (1994)",0,0
-647,"Time to Kill, A (1996)",1,0
-806,Braindead (1992),0,1
+647,"Time to Kill, A (1996)",1,1
+806,Braindead (1992),0,0
 621,Drop Zone (1994),0,0
 1041,"Jerky Boys, The (1994)",0,0
-557,Sneakers (1992),1,0
+557,Sneakers (1992),1,1
 1022,Ridicule (1996),1,1
 224,Unhook the Stars (1996),1,1
 1525,Vermont Is For Lovers (1992),0,0
 963,Mighty Morphin Power Rangers: The Movie (1995),0,0
 1133,Flirt (1995),1,0
 843,Once Were Warriors (1994),1,1
-1135,Maya Lin: A Strong Clear Vision (1994),0,1
-679,Total Eclipse (1995),1,0
-1621,"Designated Mourner, The (1997)",1,0
+1135,Maya Lin: A Strong Clear Vision (1994),0,0
+679,Total Eclipse (1995),1,1
+1621,"Designated Mourner, The (1997)",1,1
 522,Shall We Dance? (1996),0,1
 1538,"Sixth Man, The (1997)",0,0
 1437,Mille bolle blu (1993),0,0
-1054,Reality Bites (1994),1,0
-188,Richard III (1995),1,0
+1054,Reality Bites (1994),1,1
+188,Richard III (1995),1,1
 628,Star Trek V: The Final Frontier (1989),0,0
-276,Strictly Ballroom (1992),0,1
+276,Strictly Ballroom (1992),0,0
 263,When the Cats Away (Chacun cherche son chat) (1996),0,1
 838,Telling Lies in America (1997),1,1
 1165,Fear of a Black Hat (1993),0,0
 1398,Dangerous Beauty (1998),1,1
 970,Unforgettable (1996),0,0
 1593,Small Faces (1995),1,0
-705,"Paper, The (1994)",1,0
+705,"Paper, The (1994)",1,1
 500,Smoke (1995),1,1
-1424,Stefano Quantestorie (1993),1,0
+1424,Stefano Quantestorie (1993),1,1
 285,Dazed and Confused (1993),0,1
-923,Bananas (1971),0,1
-407,Jane Eyre (1996),1,0
+923,Bananas (1971),0,0
+407,Jane Eyre (1996),1,1
 1640,"Glass Shield, The (1994)",1,0
 372,Fools Rush In (1997),0,0
-366,Dave (1993),0,1
+366,Dave (1993),0,0
 426,Money Train (1995),0,0
-1169,"Browning Version, The (1994)",1,1
-1534,Wild Reeds (1994),1,0
+1169,"Browning Version, The (1994)",1,0
+1534,Wild Reeds (1994),1,1
 742,"Relic, The (1997)",0,0
 1148,Little Big League (1994),0,0
 1113,Judge Dredd (1995),0,0
 1337,Blood Beach (1981),0,0
 1276,Princess Caraboo (1994),1,0
 1023,Spawn (1997),0,0
-1177,"Inspector General, The (1949)",0,1
+1177,"Inspector General, The (1949)",0,0
 1218,Beyond Bedlam (1993),1,0
 498,Shadowlands (1993),1,1
 983,Drop Dead Fred (1991),0,0
-802,Mediterraneo (1991),0,1
+802,Mediterraneo (1991),0,0
 765,Before and After (1996),1,1
 1300,Love Is All There Is (1996),1,1
 1152,"Tie That Binds, The (1995)",0,0
-515,SubUrbia (1997),0,1
-1658,My Favorite Season (1993),1,0
+515,SubUrbia (1997),0,0
+1658,My Favorite Season (1993),1,1
 700,"Life Less Ordinary, A (1997)",0,0
 328,Hot Shots! Part Deux (1993),0,0
 124,One Fine Day (1996),1,0
-1396,"Eye of Vichy, The (Oeil de Vichy, L') (1993)",0,0
+1396,"Eye of Vichy, The (Oeil de Vichy, L') (1993)",0,1
 886,Candyman (1992),0,0
 924,Celtic Pride (1996),0,0
 390,Quiz Show (1994),1,1
@@ -905,22 +905,22 @@ movieId,title,Drama,prediction
 1451,Gilligan's Island: The Movie (1998),0,0
 388,"Great White Hype, The (1996)",0,0
 326,Dial M for Murder (1954),0,0
-941,"Modern Affair, A (1995)",0,0
-959,Desperate Measures (1998),1,0
+941,"Modern Affair, A (1995)",0,1
+959,Desperate Measures (1998),1,1
 16,"Age of Innocence, The (1993)",1,1
 928,Fire Down Below (1997),1,0
 881,Scream 2 (1997),0,0
 246,Fled (1996),0,0
 1656,He Walked by Night (1948),0,0
 173,"First Wives Club, The (1996)",0,0
-1444,"Big Bang Theory, The (1994)",0,1
+1444,"Big Bang Theory, The (1994)",0,0
 1231,Hugo Pool (1997),0,0
-939,Touch of Evil (1958),0,1
+939,Touch of Evil (1958),0,0
 321,"Princess Bride, The (1987)",0,0
 462,Strange Days (1995),0,0
 747,Carrington (1995),1,1
 529,"Nightmare Before Christmas, The (1993)",0,0
-1673,Nobody Loves Me (Keiner liebt mich) (1994),1,0
+1673,Nobody Loves Me (Keiner liebt mich) (1994),1,1
 944,Money Talks (1997),0,0
 128,Get on the Bus (1996),1,1
 1540,Blue Chips (1994),1,0
@@ -939,15 +939,15 @@ movieId,title,Drama,prediction
 572,Homeward Bound II: Lost in San Francisco (1996),0,0
 433,Beauty and the Beast (1991),0,0
 261,Tomorrow Never Dies (1997),0,0
-121,Pump Up the Volume (1990),1,1
+121,Pump Up the Volume (1990),1,0
 181,Mars Attacks! (1996),0,0
 1066,Go Fish (1994),1,1
 1548,Chairman of the Board (1998),0,0
 1147,"Machine, The (1994)",0,0
-1375,Paradise Road (1997),1,0
-954,Balto (1995),0,1
+1375,Paradise Road (1997),1,1
+954,Balto (1995),0,0
 198,Mystery Science Theater 3000: The Movie (1996),0,0
-1216,'Til There Was You (1997),1,0
+1216,'Til There Was You (1997),1,1
 604,Wolf (1994),1,0
 1377,Bent (1997),1,0
 459,Booty Call (1997),0,0
@@ -961,13 +961,13 @@ movieId,title,Drama,prediction
 1016,Philadelphia (1993),1,1
 712,In the Bleak Midwinter (1995),0,1
 158,Jackie Chan's First Strike (1996),0,0
-6,"Hunt for Red October, The (1990)",0,1
+6,"Hunt for Red October, The (1990)",0,0
 1009,Carlito's Way (1993),1,0
 1005,"Body Snatcher, The (1945)",0,0
 678,Serial Mom (1994),0,0
-145,"Good, The Bad and The Ugly, The (1966)",0,1
+145,"Good, The Bad and The Ugly, The (1966)",0,0
 1061,Rent-a-Kid (1995),0,0
-1131,"Boys, Les (1997)",0,1
+1131,"Boys, Les (1997)",0,0
 560,Major Payne (1994),0,0
 642,Love! Valour! Compassion! (1997),1,1
 340,"Hunchback of Notre Dame, The (1996)",0,0
@@ -978,10 +978,10 @@ movieId,title,Drama,prediction
 327,Once Upon a Time... When We Were Colored (1995),1,1
 927,Nadja (1994),1,0
 550,Being There (1979),0,1
-1597,"New Age, The (1994)",1,0
-1126,Night Falls on Manhattan (1997),1,0
+1597,"New Age, The (1994)",1,1
+1126,Night Falls on Manhattan (1997),1,1
 1039,Heaven's Prisoners (1996),0,0
-880,Loaded (1994),1,0
+880,Loaded (1994),1,1
 435,Pretty Woman (1990),0,0
 730,Raging Bull (1980),1,1
 1434,Two Bits (1995),1,1
@@ -989,21 +989,21 @@ movieId,title,Drama,prediction
 643,"Crucible, The (1996)",1,1
 532,Nick of Time (1995),0,0
 1365,Race the Sun (1996),1,0
-472,Nell (1994),1,0
+472,Nell (1994),1,1
 858,Tales from the Crypt Presents: Bordello of Blood (1996),0,0
 410,"Red Firecracker, Green Firecracker (1994)",1,1
 704,"Phantom, The (1996)",0,0
-603,"Blue Angel, The (Blaue Engel, Der) (1930)",1,1
+603,"Blue Angel, The (Blaue Engel, Der) (1930)",1,0
 721,"Haunted World of Edward D. Wood Jr., The (1995)",0,0
 544,Cinderella (1950),0,0
 1537,Office Killer (1997),0,0
-1235,Hear My Song (1991),0,1
+1235,Hear My Song (1991),0,0
 763,Meet Me in St. Louis (1944),0,0
 1464,Buddy (1997),1,0
 778,So I Married an Axe Murderer (1993),0,0
 369,Days of Thunder (1990),0,0
-840,Inventing the Abbotts (1997),1,0
-1563,Hurricane Streets (1998),1,0
+840,Inventing the Abbotts (1997),1,1
+1563,Hurricane Streets (1998),1,1
 755,Red Corner (1997),0,0
 687,Cat on a Hot Tin Roof (1958),1,1
 297,"Usual Suspects, The (1995)",0,0
@@ -1012,68 +1012,68 @@ movieId,title,Drama,prediction
 266,Bottle Rocket (1996),0,0
 1000,Dark City (1998),0,0
 1283,Falling in Love Again (1980),0,0
-1639,Spirits of the Dead (Tre passi nel delirio) (1968),0,1
+1639,Spirits of the Dead (Tre passi nel delirio) (1968),0,0
 72,Seven Years in Tibet (1997),1,1
 1388,"Bloody Child, The (1996)",1,0
 250,Glengarry Glen Ross (1992),1,1
 1120,"Sweet Hereafter, The (1997)",1,1
 1301,Withnail and I (1987),0,1
-157,Contact (1997),1,0
+157,Contact (1997),1,1
 955,Playing God (1997),0,0
 1633,"Death in the Garden (Mort en ce jardin, La) (1956)",1,0
 1136,Two if by Sea (1996),0,0
-592,Local Hero (1983),0,1
+592,Local Hero (1983),0,0
 87,Con Air (1997),0,0
 832,Congo (1995),0,0
 975,Hideaway (1995),0,0
-365,Beautiful Girls (1996),1,0
+365,Beautiful Girls (1996),1,1
 1191,Madonna: Truth or Dare (1991),0,0
-1669,"Next Step, The (1995)",1,0
+1669,"Next Step, The (1995)",1,1
 295,Down by Law (1986),1,1
 94,Taxi Driver (1976),1,1
 240,One Flew Over the Cuckoo's Nest (1975),1,1
 1044,Highlander III: The Sorcerer (1994),0,0
 976,Critical Care (1997),0,0
 50,Fantasia (1940),0,0
-5,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963),0,1
-211,Cape Fear (1991),0,0
+5,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963),0,0
+211,Cape Fear (1991),0,1
 1384,U.S. Marshalls (1998),0,0
-1564,"Day the Sun Turned Cold, The (Tianguo niezi) (1994)",1,0
-644,Private Parts (1997),1,0
-1679,Girls Town (1996),1,0
+1564,"Day the Sun Turned Cold, The (Tianguo niezi) (1994)",1,1
+644,Private Parts (1997),1,1
+1679,Girls Town (1996),1,1
 363,Home Alone (1990),0,0
-977,Stealing Beauty (1996),1,0
+977,Stealing Beauty (1996),1,1
 1149,Party Girl (1995),0,0
 906,Live Nude Girls (1995),0,0
 797,"Basketball Diaries, The (1995)",1,1
-1380,Killer: A Journal of Murder (1995),1,0
+1380,Killer: A Journal of Murder (1995),1,1
 813,Stuart Saves His Family (1995),0,0
-88,Monty Python's Life of Brian (1979),0,1
-463,What Happened Was... (1994),1,1
+88,Monty Python's Life of Brian (1979),0,0
+463,What Happened Was... (1994),1,0
 1399,Golden Earrings (1947),0,0
-1651,Sliding Doors (1998),1,0
+1651,Sliding Doors (1998),1,1
 193,Tommy Boy (1995),0,0
 710,Kalifornia (1993),1,1
 812,"House of the Spirits, The (1993)",1,1
 1193,Guilty as Sin (1993),1,0
 1293,Boy's Life 2 (1997),1,1
-611,Sunset Blvd. (1950),0,1
+611,Sunset Blvd. (1950),0,0
 841,"Kid in King Arthur's Court, A (1995)",0,0
 661,When We Were Kings (1996),0,1
 1178,I'm Not Rappaport (1996),0,1
 926,Hard Target (1993),0,0
 541,"Third Man, The (1949)",0,1
-562,Microcosmos: Le peuple de l'herbe (1996),0,1
-1045,"Van, The (1996)",1,0
+562,Microcosmos: Le peuple de l'herbe (1996),0,0
+1045,"Van, The (1996)",1,1
 1487,Romper Stomper (1992),1,1
 701,Original Gangstas (1996),0,0
 894,"Baby-Sitters Club, The (1995)",0,0
 140,"Rock, The (1996)",0,0
-392,"Last Supper, The (1995)",1,0
-1010,Female Perversions (1996),1,0
+392,"Last Supper, The (1995)",1,1
+1010,Female Perversions (1996),1,1
 523,Escape from L.A. (1996),0,0
 467,Striptease (1996),0,0
-660,"Manchurian Candidate, The (1962)",0,1
+660,"Manchurian Candidate, The (1962)",0,0
 1479,City of Industry (1997),0,0
 900,Escape from New York (1981),0,0
 381,Mary Reilly (1996),1,0
@@ -1081,14 +1081,14 @@ movieId,title,Drama,prediction
 1047,M (1931),0,1
 1084,Brassed Off (1996),1,1
 306,Mulholland Falls (1996),0,0
-943,"Whole Wide World, The (1996)",1,1
+943,"Whole Wide World, The (1996)",1,0
 337,Ed Wood (1994),1,0
 1356,Moonlight and Valentino (1995),1,0
 1139,Head Above Water (1996),0,0
 484,Excess Baggage (1997),0,0
 477,"Prophecy, The (1995)",0,0
 453,Higher Learning (1995),1,0
-1676,Scream of Stone (Schrei aus Stein) (1991),1,0
+1676,Scream of Stone (Schrei aus Stein) (1991),1,1
 75,Copycat (1995),1,0
 1122,Geronimo: An American Legend (1993),1,0
 1505,Angel on My Shoulder (1946),1,0
@@ -1101,20 +1101,20 @@ movieId,title,Drama,prediction
 912,In the Line of Duty 2 (1987),0,0
 1118,Gold Diggers: The Secret of Bear Mountain (1995),0,0
 346,"Ice Storm, The (1997)",1,1
-1467,Waiting to Exhale (1995),1,0
+1467,Waiting to Exhale (1995),1,1
 909,3 Ninjas: High Noon At Mega Mountain (1998),0,0
 371,Swingers (1996),1,1
 882,Walkabout (1971),1,1
-1407,In the Realm of the Senses (Ai no corrida) (1976),1,0
+1407,In the Realm of the Senses (Ai no corrida) (1976),1,1
 764,City Slickers II: The Legend of Curly's Gold (1994),0,0
-3,Legends of the Fall (1994),1,0
-1423,Babyfever (1994),1,0
-931,Immortal Beloved (1994),1,0
+3,Legends of the Fall (1994),1,1
+1423,Babyfever (1994),1,1
+931,Immortal Beloved (1994),1,1
 1197,Halloween: The Curse of Michael Myers (1995),0,0
 803,"Mark of Zorro, The (1940)",0,0
-1215,"Sum of Us, The (1994)",0,0
+1215,"Sum of Us, The (1994)",0,1
 120,Courage Under Fire (1996),1,0
-1105,Passion Fish (1992),1,1
+1105,Passion Fish (1992),1,0
 496,Chinatown (1974),0,1
 1348,"Little Rascals, The (1994)",0,0
 67,Wings of Desire (1987),1,1
@@ -1125,21 +1125,21 @@ movieId,title,Drama,prediction
 255,Afterglow (1997),1,1
 932,Alaska (1996),0,0
 1081,"Babysitter, The (1995)",1,0
-180,"Close Shave, A (1995)",0,1
+180,"Close Shave, A (1995)",0,0
 733,Farewell My Concubine (1993),1,1
 1167,Anastasia (1997),0,0
 1183,Fair Game (1995),0,0
 593,"Little Princess, A (1995)",1,1
 1385,Kim (1950),1,1
-30,Chasing Amy (1997),1,0
-1146,Heidi Fleiss: Hollywood Madam (1995) ,0,1
+30,Chasing Amy (1997),1,1
+1146,Heidi Fleiss: Hollywood Madam (1995) ,0,0
 15,Only You (1994),0,0
-867,To Catch a Thief (1955),0,1
+867,To Catch a Thief (1955),0,0
 526,Dirty Dancing (1987),0,0
-1071,Ruby in Paradise (1993),1,0
-1195,Bad Taste (1987),0,1
+1071,Ruby in Paradise (1993),1,1
+1195,Bad Taste (1987),0,0
 448,So Dear to My Heart (1949),1,1
-470,"Perfect World, A (1993)",1,0
+470,"Perfect World, A (1993)",1,1
 874,Wyatt Earp (1994),0,0
 1562,Someone Else's America (1995),1,1
 1233,"White Balloon, The (1995)",1,1
@@ -1154,7 +1154,7 @@ movieId,title,Drama,prediction
 935,Hercules (1997),0,0
 1571,Some Mother's Son (1996),1,1
 1322,Stonewall (1995),1,1
-965,Rebecca (1940),0,1
+965,Rebecca (1940),0,0
 52,Return of the Jedi (1983),0,0
 1,L.A. Confidential (1997),0,1
 428,Bringing Up Baby (1938),0,0
@@ -1162,19 +1162,19 @@ movieId,title,Drama,prediction
 1577,Fausto (1993),0,0
 1528,Losing Chase (1996),1,0
 81,Miller's Crossing (1990),1,1
-457,Living in Oblivion (1995),0,1
+457,Living in Oblivion (1995),0,0
 530,Matilda (1996),0,0
 945,Weekend at Bernie's (1989),0,0
 1182,Metro (1997),0,0
-1592,"Savage Nights (Nuits fauves, Les) (1992)",1,0
+1592,"Savage Nights (Nuits fauves, Les) (1992)",1,1
 324,From Dusk Till Dawn (1996),0,0
 808,Shallow Grave (1994),0,1
 1589,Target (1995),1,0
 739,"Young Poisoner's Handbook, The (1995)",0,0
 488,Arsenic and Old Lace (1944),0,0
 1350,"Forbidden Christ, The (Cristo proibito, Il) (1950)",1,1
-914,Gaslight (1944),0,1
-1478,"Ciao, Professore! (1993)",1,1
+914,Gaslight (1944),0,0
+1478,"Ciao, Professore! (1993)",1,0
 341,Naked (1993),1,1
 1488,Baton Rouge (1988),0,0
 406,Tin Cup (1996),0,0
@@ -1184,7 +1184,7 @@ movieId,title,Drama,prediction
 589,Bad Boys (1995),0,0
 1222,Chasers (1994),0,0
 1486,Amityville 3-D (1983),0,0
-1666,Brothers in Trouble (1995),1,0
+1666,Brothers in Trouble (1995),1,1
 474,Star Trek IV: The Voyage Home (1986),0,0
 543,"Net, The (1995)",0,0
 115,Amistad (1997),1,1
@@ -1198,34 +1198,34 @@ movieId,title,Drama,prediction
 1494,Ladybird Ladybird (1994),1,1
 1265,"Goofy Movie, A (1995)",0,0
 1453,Stalker (1979),0,0
-1392,Hurricane Streets (1998),1,0
+1392,Hurricane Streets (1998),1,1
 1282,Stripes (1981),0,0
-1604,Land and Freedom (Tierra y libertad) (1995),0,1
+1604,Land and Freedom (Tierra y libertad) (1995),0,0
 1021,"Air Up There, The (1994)",0,0
 456,Top Gun (1986),0,0
-1468,Pushing Hands (1992),0,1
-1055,Switchblade Sisters (1975),0,0
+1468,Pushing Hands (1992),0,0
+1055,Switchblade Sisters (1975),0,1
 1250,Faces (1968),1,0
 1371,"Joy Luck Club, The (1993)",1,0
 995,That Darn Cat! (1997),0,0
 1315,Wild Things (1998),1,0
-221,"Fish Called Wanda, A (1988)",0,1
+221,"Fish Called Wanda, A (1988)",0,0
 1517,"Amazing Panda Adventure, The (1995)",0,0
 618,"Magnificent Seven, The (1954)",1,1
-1143,Ghosts of Mississippi (1996),1,0
-1559,A Chef in Love (1996),0,0
-1238,Caro Diario (Dear Diary) (1994),1,0
+1143,Ghosts of Mississippi (1996),1,1
+1559,A Chef in Love (1996),0,1
+1238,Caro Diario (Dear Diary) (1994),1,1
 917,Theodore Rex (1995),0,0
-334,"Hour of the Pig, The (1993)",1,1
-1141,Even Cowgirls Get the Blues (1993),0,0
+334,"Hour of the Pig, The (1993)",1,0
+1141,Even Cowgirls Get the Blues (1993),0,1
 1576,"Quiet Room, The (1996)",1,1
-79,Outbreak (1995),1,0
+79,Outbreak (1995),1,1
 503,Sleeper (1973),0,1
-345,Pinocchio (1940),0,1
+345,Pinocchio (1940),0,0
 1641,"Slingshot, The (1993)",1,0
 96,Young Frankenstein (1974),0,1
 1462,Salut cousin! (1996),1,0
-1160,"Last Time I Saw Paris, The (1954)",1,1
+1160,"Last Time I Saw Paris, The (1954)",1,0
 1227,"Little Princess, The (1939)",1,1
 502,Dead Man Walking (1995),1,1
 402,Shiloh (1997),1,0
@@ -1237,46 +1237,46 @@ movieId,title,Drama,prediction
 1595,Time Tracers (1995),0,0
 1508,Here Comes Cookie (1935),0,0
 1229,Money Talks (1997),0,0
-1545,"Invitation, The (Zaproszenie) (1986)",1,0
+1545,"Invitation, The (Zaproszenie) (1986)",1,1
 835,"Three Caballeros, The (1945)",0,0
-4,Jackie Brown (1997),1,0
+4,Jackie Brown (1997),1,1
 1457,House Party 3 (1994),0,0
-627,Steel (1997),0,0
+627,Steel (1997),0,1
 918,Metisse (Café au Lait) (1993),0,1
-103,Willy Wonka and the Chocolate Factory (1971),0,1
-781,James and the Giant Peach (1996),0,1
-673,Paths of Glory (1957),1,1
-1634,Ripe (1996),1,0
+103,Willy Wonka and the Chocolate Factory (1971),0,0
+781,James and the Giant Peach (1996),0,0
+673,Paths of Glory (1957),1,0
+1634,Ripe (1996),1,1
 1518,Death in Brunswick (1991),0,1
 1086,Lord of Illusions (1995),0,0
 631,Harriet the Spy (1996),0,0
-896,Notorious (1946),0,1
+896,Notorious (1946),0,0
 1359,Mr. Wonderful (1993),0,0
 1051,"Women, The (1939)",0,1
-452,"Long Kiss Goodnight, The (1996)",0,0
+452,"Long Kiss Goodnight, The (1996)",0,1
 1605,King of New York (1990),0,0
 82,Batman (1989),1,0
 134,Before Sunrise (1995),1,1
 1484,"I, Worst of All (Yo, la peor de todas) (1990)",1,0
 465,Fried Green Tomatoes (1991),1,1
-1221,Good Morning (1971),0,0
-844,Vanya on 42nd Street (1994),1,0
-650,Crows and Sparrows (1949),1,0
+1221,Good Morning (1971),0,1
+844,Vanya on 42nd Street (1994),1,1
+650,Crows and Sparrows (1949),1,1
 359,"Godfather: Part II, The (1974)",1,1
-1284,Tom & Viv (1994),1,1
-1089,Angus (1995),0,0
+1284,Tom & Viv (1994),1,0
+1089,Angus (1995),0,1
 442,Father of the Bride (1950),0,0
-22,Die Hard (1988),0,0
+22,Die Hard (1988),0,1
 839,"Replacement Killers, The (1998)",0,0
-536,Maximum Risk (1996),0,0
+536,Maximum Risk (1996),0,1
 235,Nikita (La Femme Nikita) (1990),0,1
-999,Year of the Horse (1997),0,0
+999,Year of the Horse (1997),0,1
 178,Up Close and Personal (1996),1,0
 95,Liar Liar (1997),0,0
 1289,Jefferson in Paris (1995),1,0
 205,"Brady Bunch Movie, The (1995)",0,0
 861,"Frighteners, The (1996)",0,0
-741,Kiss of Death (1995),1,0
+741,Kiss of Death (1995),1,1
 506,Unforgiven (1992),0,1
 129,Ninotchka (1939),0,0
 1272,Turbo: A Power Rangers Movie (1997),0,0
@@ -1284,12 +1284,12 @@ movieId,title,Drama,prediction
 1672,Everest (1998),0,0
 1321,"Collectionneuse, La (1967)",1,0
 1401,Alphaville (1965),0,1
-1247,Drunks (1995),1,1
+1247,Drunks (1995),1,0
 114,True Lies (1994),0,0
 1068,Dead Presidents (1995),1,0
 702,Diva (1981),1,1
 176,"Mirror Has Two Faces, The (1996)",0,0
-401,"Grifters, The (1990)",1,1
+401,"Grifters, The (1990)",1,0
 147,GoldenEye (1995),0,0
 662,"Horseman on the Roof, The (Hussard sur le toit, Le) (1995)",1,1
 318,Little Women (1994),1,1
@@ -1298,44 +1298,44 @@ movieId,title,Drama,prediction
 1417,"Visitors, The (Visiteurs, Les) (1993)",0,0
 901,Barbarella (1968),0,0
 1583,Harlem (1993),1,0
-1075,"Simple Wish, A (1997)",0,0
+1075,"Simple Wish, A (1997)",0,1
 857,Losing Isaiah (1995),1,0
 1339,"Amityville Curse, The (1990)",0,0
 45,Beautiful Thing (1996),1,1
-1352,"Designated Mourner, The (1997)",1,0
+1352,"Designated Mourner, The (1997)",1,1
 1323,Anna (1996),1,1
 1108,"Paris, Texas (1984)",1,1
-1499,Being Human (1993),1,0
+1499,Being Human (1993),1,1
 1194,Trial and Error (1997),0,0
-907,Window to Paris (1994),0,1
+907,Window to Paris (1994),0,0
 200,Schindler's List (1993),1,1
 271,Once Upon a Time in America (1984),1,0
-1391,"Steal Big, Steal Little (1995)",0,0
+1391,"Steal Big, Steal Little (1995)",0,1
 1213,Herbie Rides Again (1974),0,0
-794,Better Off Dead... (1985),0,1
-759,"Second Jungle Book: Mowgli & Baloo, The (1997)",0,0
+794,Better Off Dead... (1985),0,0
+759,"Second Jungle Book: Mowgli & Baloo, The (1997)",0,1
 1082,Out to Sea (1997),0,0
 1509,Grateful Dead (1995),0,0
 862,Sleepers (1996),1,1
-1028,"Christmas Carol, A (1938)",1,1
+1028,"Christmas Carol, A (1938)",1,0
 1345,Carmen Miranda: Bananas Is My Business (1994),0,0
-1134,M. Butterfly (1993),1,0
+1134,M. Butterfly (1993),1,1
 1188,"Swan Princess, The (1994)",0,0
 727,For Love or Money (1993),0,0
 1678,"Eighth Day, The (1996)",1,0
 1500,Broken English (1996),1,0
 1096,"Stranger, The (1994)",0,1
-1456,Infinity (1996),1,0
-1544,Warriors of Virtue (1997),0,1
+1456,Infinity (1996),1,1
+1544,Warriors of Virtue (1997),0,0
 1400,Destiny Turns on the Radio (1995),0,0
-37,Speechless (1994),0,0
-1097,Once Upon a Time in the West (1969),0,1
+37,Speechless (1994),0,1
+1097,Once Upon a Time in the West (1969),0,0
 1013,Anaconda (1997),0,0
-1083,Farinelli: il castrato (1994),1,0
+1083,Farinelli: il castrato (1994),1,1
 594,I Know What You Did Last Summer (1997),0,0
 698,Demolition Man (1993),0,0
 352,Tank Girl (1995),0,0
-164,Clockers (1995),1,0
+164,Clockers (1995),1,1
 19,"Endless Summer 2, The (1994)",0,0
 750,"Big Sleep, The (1946)",0,0
 344,"Adventures of Pinocchio, The (1996)",0,0
@@ -1344,11 +1344,11 @@ movieId,title,Drama,prediction
 245,"MatchMaker, The (1997)",0,0
 1510,"Underneath, The (1995)",0,0
 1512,Legal Deceit (1997),0,0
-110,My Fair Lady (1964),0,1
+110,My Fair Lady (1964),0,0
 102,Terminator 2: Judgment Day (1991),0,0
 699,8 1/2 (1963),1,1
 42,Tales from the Hood (1995),0,0
-1015,Star Maps (1997),1,0
+1015,Star Maps (1997),1,1
 768,"Crow: City of Angels, The (1996)",0,0
 409,My Fellow Americans (1996),0,0
 1288,"Colonel Chabert, Le (1994)",1,0
@@ -1363,25 +1363,25 @@ movieId,title,Drama,prediction
 1304,Johns (1996),1,0
 996,"Old Lady Who Walked in the Sea, The (Vieille qui marchait dans la mer, La) (1991)",0,1
 1383,Jury Duty (1995),0,0
-811,The Innocent (1994),1,1
-1606,Hana-bi (1997),1,1
-1046,My Man Godfrey (1936),0,0
+811,The Innocent (1994),1,0
+1606,Hana-bi (1997),1,0
+1046,My Man Godfrey (1936),0,1
 411,Orlando (1993),1,1
-1269,Fluke (1995),1,1
+1269,Fluke (1995),1,0
 801,In the Line of Fire (1993),0,1
 480,Snow White and the Seven Dwarfs (1937),0,0
 981,Manhattan Murder Mystery (1993),0,0
 332,Spy Hard (1996),0,0
 1151,"Candidate, The (1972)",1,1
 1064,"Pyromaniac's Love Story, A (1995)",0,0
-689,"Pallbearer, The (1996)",0,0
+689,"Pallbearer, The (1996)",0,1
 165,Chain Reaction (1996),0,0
 468,Dumb & Dumber (1994),0,0
 44,Evil Dead II (1987),0,0
-118,2001: A Space Odyssey (1968),1,1
+118,2001: A Space Odyssey (1968),1,0
 486,Dracula: Dead and Loving It (1995),0,0
 953,Billy Madison (1995),0,0
-210,Tie Me Up! Tie Me Down! (1990),1,1
+210,Tie Me Up! Tie Me Down! (1990),1,0
 146,Batman Returns (1992),0,0
 1480,Dream With the Fishes (1997),1,1
 123,Tales From the Crypt Presents: Demon Knight (1995),0,0
@@ -1390,31 +1390,31 @@ movieId,title,Drama,prediction
 20,"Man Without a Face, The (1993)",1,0
 451,Stalingrad (1993),0,0
 1425,"Good Man in Africa, A (1994)",0,0
-1031,"Portrait of a Lady, The (1996)",1,0
+1031,"Portrait of a Lady, The (1996)",1,1
 1254,Bloodsport 2 (1995),0,0
 1471,Carpool (1996),0,0
-105,"Quiet Man, The (1952)",0,1
+105,"Quiet Man, The (1952)",0,0
 90,Backbeat (1993),1,1
-1199,Mina Tannenbaum (1994),1,1
+1199,Mina Tannenbaum (1994),1,0
 888,"Deer Hunter, The (1978)",1,1
 203,What's Eating Gilbert Grape (1993),1,1
 68,Mr. Holland's Opus (1995),1,1
 312,"Low Down Dirty Shame, A (1994)",0,0
-517,Koyaanisqatsi (1983),0,0
+517,Koyaanisqatsi (1983),0,1
 723,"Thin Man, The (1934)",0,1
 573,Star Trek: Generations (1994),0,0
-317,Full Metal Jacket (1987),1,1
-675,If Lucy Fell (1996),0,0
+317,Full Metal Jacket (1987),1,0
+675,If Lucy Fell (1996),0,1
 338,Bram Stoker's Dracula (1992),0,0
 586,Bullets Over Broadway (1994),0,1
-1176,Love and a .45 (1994),0,1
+1176,Love and a .45 (1994),0,0
 268,"Peacemaker, The (1997)",0,0
 85,Bean (1997),0,0
 375,First Knight (1995),1,0
-1416,"Promesse, La (1996)",1,0
+1416,"Promesse, La (1996)",1,1
 287,Trees Lounge (1996),1,1
 1174,Sunset Park (1996),1,0
-1554,Girl in the Cadillac (1995),1,0
+1554,Girl in the Cadillac (1995),1,1
 893,Beverly Hills Ninja (1997),0,0
 1632,B. Monkey (1998),0,0
 885,Candyman: Farewell to the Flesh (1995),0,0
@@ -1422,29 +1422,29 @@ movieId,title,Drama,prediction
 937,"Big Green, The (1995)",0,0
 179,Groundhog Day (1993),0,0
 540,On Golden Pond (1981),1,1
-1418,Liebelei (1933),0,0
+1418,Liebelei (1933),0,1
 1354,"Queen Margot (Reine Margot, La) (1994)",1,1
-293,Ghost (1990),0,0
-606,Widows' Peak (1994),1,0
-1390,Prisoner of the Mountains (Kavkazsky Plennik) (1996),0,0
+293,Ghost (1990),0,1
+606,Widows' Peak (1994),1,1
+1390,Prisoner of the Mountains (Kavkazsky Plennik) (1996),0,1
 1616,Jupiter's Wife (1994),0,1
 476,Clear and Present Danger (1994),0,1
 1553,Coldblooded (1995),0,0
-466,"Fast, Cheap & Out of Control (1997)",0,1
-1466,"Lay of the Land, The (1997)",1,0
-1445,Land Before Time III: The Time of the Great Giving (1995) (V),0,0
+466,"Fast, Cheap & Out of Control (1997)",0,0
+1466,"Lay of the Land, The (1997)",1,1
+1445,Land Before Time III: The Time of the Great Giving (1995) (V),0,1
 1404,Lashou shentan (1992),1,0
 1058,Firestorm (1998),0,0
-292,Akira (1988),0,1
+292,Akira (1988),0,0
 1279,Free Willy 2: The Adventure Home (1995),1,0
 1203,Three Wishes (1995),1,0
 460,My Left Foot (1989),1,1
 1580,Lady of Burlesque (1943),0,1
-1236,Reckless (1995),0,1
+1236,Reckless (1995),0,0
 1566,Little City (1998),0,0
-1415,For Ever Mozart (1996),1,0
-499,True Romance (1993),0,0
-929,Bird of Prey (1996),0,0
+1415,For Ever Mozart (1996),1,1
+499,True Romance (1993),0,1
+929,Bird of Prey (1996),0,1
 666,"Postman, The (1997)",1,0
 1244,Village of the Damned (1995),0,0
 1207,I Can't Sleep (J'ai pas sommeil) (1994),1,1
@@ -1460,8 +1460,8 @@ movieId,title,Drama,prediction
 106,Muppet Treasure Island (1996),0,0
 697,Ran (1985),1,1
 1594,Getting Even with Dad (1994),0,0
-1541,"Rendezvous in Paris (Rendez-vous de Paris, Les) (1995)",0,0
-1230,Underground (1995),0,0
+1541,"Rendezvous in Paris (Rendez-vous de Paris, Les) (1995)",0,1
+1230,Underground (1995),0,1
 107,Bogus (1996),1,0
 1094,Bitter Moon (1992),1,0
 1395,Duoluo tianshi (1995),1,1
@@ -1470,45 +1470,45 @@ movieId,title,Drama,prediction
 731,McHale's Navy (1997),0,0
 910,To Live (Huozhe) (1994),1,1
 482,Henry V (1989),1,1
-1035,Solo (1996),0,0
+1035,Solo (1996),0,1
 968,Miami Rhapsody (1995),0,0
 1130,Santa with Muscles (1996),0,0
 538,Lawrence of Arabia (1962),0,1
 1198,Albino Alligator (1996),0,0
 355,Trainspotting (1996),1,1
-1502,American Dream (1990),0,1
+1502,American Dream (1990),0,0
 1249,Paris Was a Woman (1995),0,0
 175,"Saint, The (1997)",0,0
 648,"Pillow Book, The (1995)",1,0
-408,Braveheart (1995),1,0
+408,Braveheart (1995),1,1
 1331,Two Deaths (1995),1,1
 322,"Crossing Guard, The (1995)",1,0
 1446,In the Army Now (1994),0,0
-28,Restoration (1995),1,0
+28,Restoration (1995),1,1
 1180,Nobody's Fool (1994),1,1
 737,Kissed (1996),0,1
 607,Addams Family Values (1993),0,0
-494,Menace II Society (1993),1,0
+494,Menace II Society (1993),1,1
 1263,Panther (1995),1,1
-1507,"Wedding Gift, The (1994)",1,0
+1507,"Wedding Gift, The (1994)",1,1
 214,"Apostle, The (1997)",1,1
-349,Devil in a Blue Dress (1995),0,0
+349,Devil in a Blue Dress (1995),0,1
 1394,Midnight Dancers (Sibak) (1994),1,1
-546,Breakfast at Tiffany's (1961),1,1
-223,Love Jones (1997),0,0
+546,Breakfast at Tiffany's (1961),1,0
+223,Love Jones (1997),0,1
 1156,"Farewell to Arms, A (1932)",0,0
-658,Of Human Bondage (1934),1,0
+658,Of Human Bondage (1934),1,1
 33,Sleepless in Seattle (1993),0,0
-1430,"Man in the Iron Mask, The (1998)",1,0
-608,"Edge, The (1997)",0,0
+1430,"Man in the Iron Mask, The (1998)",1,1
+608,"Edge, The (1997)",0,1
 1101,Cutthroat Island (1995),0,0
 979,"Bronx Tale, A (1993)",1,1
 510,"Cable Guy, The (1996)",0,0
 1590,Bitter Sugar (Azucar Amargo) (1996),1,1
 1245,Fearless (1993),1,0
 1427,Commandments (1997),0,0
-991,Safe (1995),0,1
+991,Safe (1995),0,0
 248,Kicked in the Head (1997),1,0
-1209,Nosferatu a Venezia (1986),0,1
+1209,Nosferatu a Venezia (1986),0,0
 1671,Sleepover (1995),1,0
 1117,"Truman Show, The (1998)",1,1

@@ -1,52 +1,52 @@
 movieId,title,Drama,prediction
 903,Swept from the Sea (1997),0,1
 400,Michael Collins (1996),1,1
-1622,Deceiver (1997),0,0
+1622,Deceiver (1997),0,1
 357,Star Wars (1977),0,0
-236,"Grand Day Out, A (1992)",0,1
+236,"Grand Day Out, A (1992)",0,0
 174,Casablanca (1942),1,1
-1202,For Richer or Poorer (1997),0,0
+1202,For Richer or Poorer (1997),0,1
 828,Giant (1956),1,0
 1575,Lamerica (1994),1,1
 1053,"Ballad of Narayama, The (Narayama Bushiko) (1958)",1,1
 645,Mixed Nuts (1994),0,0
-1200,"Tango Lesson, The (1997)",0,0
-92,"Adventures of Priscilla, Queen of the Desert, The (1994)",1,1
-398,"Line King: Al Hirschfeld, The (1996)",0,1
+1200,"Tango Lesson, The (1997)",0,1
+92,"Adventures of Priscilla, Queen of the Desert, The (1994)",1,0
+398,"Line King: Al Hirschfeld, The (1996)",0,0
 1225,Cats Don't Dance (1997),0,0
 130,Good Will Hunting (1997),1,1
 309,"Lion King, The (1994)",0,0
 649,Harold and Maude (1971),0,1
-654,Some Kind of Wonderful (1987),1,1
+654,Some Kind of Wonderful (1987),1,0
 784,"Great Race, The (1965)",0,0
 1572,Wend Kuuni (God's Gift) (1982),1,0
 274,Volcano (1997),1,0
-1624,"Paris, France (1993)",0,0
+1624,"Paris, France (1993)",0,1
 1490,Grosse Fatigue (1994),0,1
-682,She's the One (1996),0,0
+682,She's the One (1996),0,1
 680,Ma vie en rose (My Life in Pink) (1997),1,1
 897,Bread and Chocolate (Pane e cioccolata) (1973),1,1
 1171,Little Buddha (1993),1,0
 1552,"Spanish Prisoner, The (1997)",1,1
-905,Around the World in 80 Days (1956),0,0
-913,Barcelona (1994),0,0
-988,Delta of Venus (1994),1,1
+905,Around the World in 80 Days (1956),0,1
+913,Barcelona (1994),0,1
+988,Delta of Venus (1994),1,0
 78,North by Northwest (1959),0,1
-1646,They Made Me a Criminal (1939),1,1
+1646,They Made Me a Criminal (1939),1,0
 1357,Trust (1990),1,1
 947,Up in Smoke (1978),0,0
 1234,Robocop 3 (1993),0,0
 303,"Return of the Pink Panther, The (1974)",0,0
 1121,"Prophecy II, The (1998)",0,0
-307,"Blues Brothers, The (1980)",0,0
-1057,Flesh and Bone (1993),1,0
+307,"Blues Brothers, The (1980)",0,1
+1057,Flesh and Bone (1993),1,1
 1360,Caught (1996),1,1
 613,Rumble in the Bronx (1995),0,0
 809,Fear (1996),0,0
 799,Robin Hood: Men in Tights (1993),0,0
-1617,Nothing Personal (1995),1,0
+1617,Nothing Personal (1995),1,1
 1312,8 Seconds (1994),1,1
-41,"Trigger Effect, The (1996)",1,0
+41,"Trigger Effect, The (1996)",1,1
 49,Fargo (1996),1,1
 1459,Boys in Venice (1996),1,1
 329,Raising Arizona (1987),0,1
@@ -65,10 +65,10 @@ movieId,title,Drama,prediction
 908,Belle de jour (1967),1,1
 1098,"Big Lebowski, The (1998)",0,1
 234,Kicking and Screaming (1995),1,0
-1530,"Simple Twist of Fate, A (1994)",1,0
+1530,"Simple Twist of Fate, A (1994)",1,1
 1607,Sliding Doors (1998),1,0
-1232,Heavy (1995),1,1
-864,Crimson Tide (1995),1,0
+1232,Heavy (1995),1,0
+864,Crimson Tide (1995),1,1
 814,Event Horizon (1997),0,0
 226,Clueless (1995),0,0
 619,Jeffrey (1995),0,1
@@ -80,16 +80,16 @@ movieId,title,Drama,prediction
 685,Species (1995),0,0
 70,Old Yeller (1957),1,1
 993,Anne Frank Remembered (1995),0,1
-1137,"Pompatus of Love, The (1996)",1,0
+1137,"Pompatus of Love, The (1996)",1,1
 542,Showgirls (1995),1,0
-1366,Hotel de Love (1996),0,0
+1366,Hotel de Love (1996),0,1
 1493,"Letter From Death Row, A (1998)",1,1
 1338,"Man of No Importance, A (1994)",1,0
-601,"American in Paris, An (1951)",0,1
+601,"American in Paris, An (1951)",0,0
 40,Fly Away Home (1996),0,1
-1381,"Journey of August King, The (1995)",1,0
+1381,"Journey of August King, The (1995)",1,1
 1038,Prefontaine (1997),1,1
-845,Every Other Weekend (1990),1,0
+845,Every Other Weekend (1990),1,1
 249,Desperado (1995),0,0
 1103,Wishmaster (1997),0,0
 1004,Sliver (1993),0,0
@@ -100,56 +100,56 @@ movieId,title,Drama,prediction
 1613,8 Heads in a Duffel Bag (1997),0,0
 779,"Double vie de Véronique, La (Double Life of Veronique, The) (1991)",1,1
 1226,Carried Away (1996),1,1
-887,"Secret Garden, The (1993)",1,0
+887,"Secret Garden, The (1993)",1,1
 942,Eat Drink Man Woman (1994),1,1
 525,Down Periscope (1996),0,0
-204,Primal Fear (1996),1,0
+204,Primal Fear (1996),1,1
 66,To Kill a Mockingbird (1962),1,1
 493,Amityville II: The Possession (1982),0,0
-1403,"Run of the Country, The (1995)",1,1
+1403,"Run of the Country, The (1995)",1,0
 58,"Boot, Das (1981)",1,1
 665,Cold Comfort Farm (1995),0,1
 330,Three Colors: Blue (1993),1,1
 707,Fierce Creatures (1997),0,0
-423,Four Weddings and a Funeral (1994),0,0
-1346,Twin Town (1997),0,0
+423,Four Weddings and a Funeral (1994),0,1
+1346,Twin Town (1997),0,1
 1314,Bad Moon (1996),0,0
-625,"Gay Divorcee, The (1934)",0,1
+625,"Gay Divorcee, The (1934)",0,0
 424,"Parent Trap, The (1961)",1,0
 1635,Ed's Next Move (1996),0,1
-1319,For the Moment (1994),0,0
+1319,For the Moment (1994),0,1
 1155,Burnt By the Sun (1994),1,1
-21,Sabrina (1954),0,1
+21,Sabrina (1954),0,0
 936,Mr. Smith Goes to Washington (1939),1,1
 1172,Fathers' Day (1997),0,0
 1477,Dream Man (1995),0,0
 1485,Mad Dog Time (1996),0,0
 1489,Daniel Defoe's Robinson Crusoe (1996),0,1
 738,Hackers (1995),0,0
-156,"Fugitive, The (1993)",0,1
-101,Raiders of the Lost Ark (1981),0,0
-238,Singin' in the Rain (1952),0,1
+156,"Fugitive, The (1993)",0,0
+101,Raiders of the Lost Ark (1981),0,1
+238,Singin' in the Rain (1952),0,0
 290,Heavenly Creatures (1994),1,0
-277,"Wrong Trousers, The (1993)",0,1
-1650,"War at Home, The (1996)",1,0
+277,"Wrong Trousers, The (1993)",0,0
+1650,"War at Home, The (1996)",1,1
 974,Clean Slate (1994),0,0
 1474,Clean Slate (Coup de Torchon) (1981),0,1
 1033,Power 98 (1995),0,0
 1609,Underworld (1997),0,0
 441,Purple Noon (1960),0,1
-871,Homage (1995),1,0
-1602,Rough Magic (1995),1,0
-552,Phenomenon (1996),1,0
-1655,To Cross the Rubicon (1991),1,1
+871,Homage (1995),1,1
+1602,Rough Magic (1995),1,1
+552,Phenomenon (1996),1,1
+1655,To Cross the Rubicon (1991),1,0
 683,Robin Hood: Prince of Thieves (1991),1,0
-258,Duck Soup (1933),0,1
-535,"Thin Blue Line, The (1988)",0,1
-676,2 Days in the Valley (1996),0,0
+258,Duck Soup (1933),0,0
+535,"Thin Blue Line, The (1988)",0,0
+676,2 Days in the Valley (1996),0,1
 934,Feeling Minnesota (1996),1,0
 1412,Raw Deal (1948),0,0
 1184,Mrs. Dalloway (1997),0,1
 1181,Deep Rising (1998),0,0
-57,E.T. the Extra-Terrestrial (1982),1,1
+57,E.T. the Extra-Terrestrial (1982),1,0
 1258,Cabin Boy (1994),0,0
 1644,Mat' i syn (1997),1,0
 1192,One Night Stand (1997),1,0

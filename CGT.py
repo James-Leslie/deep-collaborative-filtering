@@ -66,7 +66,7 @@ def get_baseline(df, train_index, test_index, user_col, item_col):
 
 
 def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating, 
-                        n_latent, n_hidden_1, n_hidden_2, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
+                        n_latent=1000, n_hidden_1=None, n_hidden_2=200, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
     
     # for reproducibility
     np.random.seed(random_seed)
@@ -123,7 +123,7 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
 
 
 def compile_multigenre_model(n_items, n_users, min_rating, max_rating, mean_rating, n_genres,
-                        n_latent, n_hidden_1, n_hidden_2, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
+                        n_latent=1000, n_hidden_1=None, n_hidden_2=200, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
     
     # for reproducibility
     np.random.seed(random_seed)
@@ -139,13 +139,21 @@ def compile_multigenre_model(n_items, n_users, min_rating, max_rating, mean_rati
     user_vec = Flatten()(user_em)
     # user x item bias
     bias = Input(shape=[1])
-    # concatenate user and item vectors
-    conc = Concatenate()([item_vec, user_vec])
-    # hidden layer with leaky ReLU and dropout
-    x1 = Dense(n_hidden_1, activation=activation)(conc)
-    x1 = Dropout(dropout_1)(x1)
-    # raw output
-    x1 = Dense(1)(x1)
+    # user x item bias
+    bias = Input(shape=[1])
+    if n_hidden_1:
+        # concatenate user and item vectors
+        x1 = Concatenate()([item_vec, user_vec])
+        # add all hidden layers
+        for i in range(len(n_hidden_1)):
+            x1 = Dense(n_hidden_1[i], activation=activation)(x1)
+            x1 = Dropout(dropout_1)(x1)
+        # raw output
+        x1 = Dense(1)(x1)
+    else:
+        # dot product
+        x1 = Dot(axes=1)([item_vec, user_vec])
+        
     # add interaction bias to get adjusted rating
     x1 = tf.math.add(Add()([x1, bias]), mean_rating)
     # clip rating to be between min and max
