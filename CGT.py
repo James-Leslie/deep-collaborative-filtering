@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.layers import Input, Embedding, Flatten, Dot, Add, Dense, Concatenate, Dropout, LeakyReLU
+from tensorflow.keras.layers import Input, Embedding, Flatten, Dot, Add, Dense, Concatenate, Dropout, ActivityRegularization
 from tensorflow.keras.models import Model
 
 
@@ -66,7 +66,7 @@ def get_baseline(df, train_index, test_index, user_col, item_col):
 
 
 def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating, 
-                        n_latent=1000, n_hidden_1=None, n_hidden_2=200, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
+                        n_latent=1000, n_hidden_2=[200], activation='relu', l1_reg=0, l2_reg=0, dropout_2=.2, random_seed=42):
     
     # for reproducibility
     np.random.seed(random_seed)
@@ -82,18 +82,9 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
     user_vec = Flatten()(user_em)
     # user x item bias
     bias = Input(shape=[1])
-    if n_hidden_1:
-        # concatenate user and item vectors
-        x1 = Concatenate()([item_vec, user_vec])
-        # add all hidden layers
-        for i in range(len(n_hidden_1)):
-            x1 = Dense(n_hidden_1[i], activation=activation)(x1)
-            x1 = Dropout(dropout_1)(x1)
-        # raw output
-        x1 = Dense(1)(x1)
-    else:
-        # dot product
-        x1 = Dot(axes=1)([item_vec, user_vec])
+    # dot product
+    x1 = Dot(axes=1)([item_vec, user_vec])
+    x1 = ActivityRegularization(l1=l1_reg, l2=l2_reg)(x1)
         
     # add interaction bias to get adjusted rating
     x1 = tf.math.add(Add()([x1, bias]), mean_rating)
@@ -123,7 +114,7 @@ def compile_genre_model(n_items, n_users, min_rating, max_rating, mean_rating,
 
 
 def compile_multigenre_model(n_items, n_users, min_rating, max_rating, mean_rating, n_genres,
-                        n_latent=1000, n_hidden_1=None, n_hidden_2=200, activation='relu', dropout_1=.2, dropout_2=.2, random_seed=42):
+                        n_latent=1000, n_hidden_2=[200], activation='relu', l1_reg=0, l2_reg=0, dropout_2=.2, random_seed=42):
     
     # for reproducibility
     np.random.seed(random_seed)
@@ -141,18 +132,9 @@ def compile_multigenre_model(n_items, n_users, min_rating, max_rating, mean_rati
     bias = Input(shape=[1])
     # user x item bias
     bias = Input(shape=[1])
-    if n_hidden_1:
-        # concatenate user and item vectors
-        x1 = Concatenate()([item_vec, user_vec])
-        # add all hidden layers
-        for i in range(len(n_hidden_1)):
-            x1 = Dense(n_hidden_1[i], activation=activation)(x1)
-            x1 = Dropout(dropout_1)(x1)
-        # raw output
-        x1 = Dense(1)(x1)
-    else:
-        # dot product
-        x1 = Dot(axes=1)([item_vec, user_vec])
+    # dot product
+    x1 = Dot(axes=1)([item_vec, user_vec])
+    x1 = ActivityRegularization(l1=l1_reg, l2=l2_reg)(x1)
         
     # add interaction bias to get adjusted rating
     x1 = tf.math.add(Add()([x1, bias]), mean_rating)
