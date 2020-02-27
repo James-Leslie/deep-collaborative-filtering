@@ -1,11 +1,14 @@
 # Deep Collaborative Filtering
 
-#### 10/01/2019
-  - Attempted to create a library of functions to use for recommender datasets.
-  - All functions can be found in `interactions_data.py` and `interactions_model.py`.
-  - `CLR.py` and `OneCycle.py` are taken from    [this repo](https://github.com/nachiket273/One_Cycle_Policy).
-  
-#### 02/07/2019
-  - added `train_test_*.ipynb` notebooks to wrangle all datasets into consistent format
-    - includes encoding user and item IDs sequentially from 0-n
-  - TO-DO: add URL for original .dat files to make notebooks reproducible without storing data locally
+---
+# 1. Rating model
+## 1.1. Model architecture
+![rating_model](https://github.com/James-Leslie/deep-collaborative-filtering/blob/master/figures/png_images/rating-model.png?raw=true)
+
+### Include user and item bias
+![baselines](https://github.com/James-Leslie/deep-collaborative-filtering/blob/master/figures/png_images/baseline.png?raw=true)
+
+# 2. Genre model
+## 2.1. Model architecture
+Re-use the item embedding layer, but freeze the weights.
+![transfer-weights](https://github.com/James-Leslie/deep-collaborative-filtering/blob/master/figures/png_images/transfer-learning.png?raw=true)
